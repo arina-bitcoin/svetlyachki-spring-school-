@@ -4,50 +4,75 @@
 ```plaintext
 project-root/
 ├── public/
-│   └── assets/                       # все картинки, спрайты (Phaser грузит по прямым путям)
-│       ├── stations/
-│       ├── employees/
-│       └── ui/
+│   ├── assets/                            # иконки, спрайты
+│   │   ├── stations/
+│   │   │   ├── counter.svg
+│   │   │   ├── kitchen.svg
+│   │   │   ├── drinks.svg
+│   │   │   ├── fries.svg
+│   │   │   └── hall.svg
+│   │   ├── employees/
+│   │   │   └── chef.svg
+│   │   └── ui/
+│   │       ├── play.svg
+│   │       ├── pause.svg
+│   │       └── star.svg
+│   │
+│   └── data/                              # заглушка (или загружается по API)
+│       ├── forecast.json                  # с бэка
+│       └── schedule.json                  # с бэка
 │
 ├── src/
-│   ├── algorithms/                   # прогноз + расписание (чистые функции)
-│   │   ├── forecast.js
-│   │   ├── scheduling.js
-│   │   └── constraints.js
+│   ├── api/                               #
+│   │   └── dataService.js                 # fetch('/data/forecast.json') и schedule.json
 │   │
-│   ├── store/                        # глобальное состояние (Zustand)
-│   │   └── useSimulationStore.js     # currentDay, currentHour, isPlaying, schedule, forecast
-│   │
-│   ├── game/                         # Phaser – только отрисовка
-│   │   ├── config.js
-│   │   ├── main.js                   # фабрика: mountGame(container, props)
-│   │   ├── scenes/
-│   │   │   └── GameScene.js          # получает schedule, currentHour через props при старте
-│   │   └── helpers/
-│   │       └── drawUtils.js
+│   ├── store/                             # 
+│   │   └── useSimulationStore.js          # forecast, schedule, currentDateIndex, currentHour, isPlaying, selectedStationKey, speed, actions
 │   │
 │   ├── components/
-│   │   ├── Layout.jsx                # общая шапка, навигация по трём страницам
+│   │   ├── Layout.jsx                     # навигация (/viz, /search, /charts)
 │   │   │
-│   │   ├── visualization/            # компоненты для главной (VizPage)
-│   │   │   ├── GameContainer.jsx     # монтирует Phaser, подписывается на store
-│   │   │   ├── TechnicalOverlay.jsx  # таблица покрытия (через store)
-│   │   │   ├── TimeControls.jsx      # слайдер, play/pause (изменяют store)
-│   │   │   └── StationDetails.jsx    # всплывающая панель при клике на станцию (через store)
+│   │   ├── visualization/                 # страница с человечками
+│   │   │   ├── VizPageContent.jsx         # Собирает всё: сетку станций + панель времени + техническую сводку
+│   │   │   ├── StationsGrid.jsx           # Грид 5 станций, каждая – StationCard
+│   │   │   ├── StationCard.jsx            # Карточка станции: иконка, список иконок сотрудников, прогресс-бар покрытия
+│   │   │   ├── EmployeeIcon.jsx           # Иконка сотрудника с анимацией появления (scale) и исчезновения (exit)
+│   │   │   ├── StationDetails.jsx         # Боковая панель: детальный список сотрудников на выбранной станции
+│   │   │   ├── TechnicalOverlay.jsx       # Сводка: для каждой станции – факт / требование, цветовой статус
+│   │   │   └── TimeControls.jsx           # Слайдер часа, кнопка Play/Pause, отображение текущей даты
 │   │   │
-│   │   ├── employeeSearch/           # компоненты для страницы сотрудников
+│   │   ├── employeeSearch/                # поиск сотрудников
 │   │   │   ├── EmployeeSearchPage.jsx
 │   │   │   ├── EmployeeScheduleTable.jsx
 │   │   │   └── EmployeeStats.jsx
 │   │   │
-│   │   └── charts/                   # компоненты для страницы графиков
-│   │       └── ChartsPage.jsx        # Recharts / Chart.js
+│   │   ├── charts/                        # графики из прогноза и расписания
+│   │   │   ├── ChartsPageContent.jsx
+│   │   │   ├── GuestsForecastChart.jsx    # данные из forecast
+│   │   │   └── CoverageHeatmap.jsx        # данные из schedule
+│   │   │
+│   │   └── common/
+│   │       ├── ParticleEffect.jsx         # разные эффекты 
+│   │       └── ProgressBar.jsx
 │   │
-│   ├── pages/                        # три страницы по роутам
-│   │   ├── VizPage.jsx               # GameContainer + TechnicalOverlay + TimeControls
-│   │   ├── EmployeeSearchPage.jsx    # EmployeeSearchPage + компоненты
-│   │   └── ChartsPage.jsx            # ChartsPage + графики
+│   ├── pages/                             # роуты
+│   │   ├── VizPage.jsx
+│   │   ├── EmployeeSearchPage.jsx
+│   │   └── ChartsPage.jsx
 │   │
-│   ├── App.jsx                       # BrowserRouter, Routes, Route, Layout
-│   ├── index.js
+│   ├── hooks/
+│   │   ├── useSimulationTimer.js          # таймер
+│   │   └── useEmployeesByHour.js          # выборка по текущему часу/дню из schedule
+│   │
+│   ├── utils/
+│   │   ├── convertSchedule.js             # schedule → { date, hour, station: [emplIds] }
+│   │   └── colors.js
+│   │
+│   ├── App.jsx                            # роутер
+│   ├── main.jsx
 │   └── index.css
+│
+├── .env
+├── package.json
+├── vite.config.js
+└── README.md
