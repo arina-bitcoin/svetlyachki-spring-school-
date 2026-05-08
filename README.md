@@ -1,7 +1,7 @@
 # svetlyachki-spring-school-
 
 ## frontend 
-'''plaintext
+```plaintext
 project-root/
 ├── public/
 │   └── assets/                       # все картинки, спрайты (Phaser грузит по прямым путям)
@@ -51,4 +51,3 @@ project-root/
 │   ├── App.jsx                       # BrowserRouter, Routes, Route, Layout
 │   ├── index.js
 │   └── index.css
-'''
