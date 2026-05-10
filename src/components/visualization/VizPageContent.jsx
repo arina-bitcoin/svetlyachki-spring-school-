@@ -1,7 +1,7 @@
 import { useSimulationStore } from '../../store/useSimulationStore'
 import { useSimulationTimer } from '../../hooks/useSimulationTimer'
 import { useEmployeesByHour } from '../../hooks/useEmployeesByHour'
-// import { StationsGrid } from './StationsGrid'
+import { StationsGrid } from './StationsGrid'
 import { AnimatedMap } from './AnimateMap'     
 import { TimeControls } from './TimeControls'
 import { TechnicalOverlay } from './TechnicalOverlay'
@@ -14,7 +14,7 @@ export function VizPageContent() {
   const employeesByStation = useEmployeesByHour()
 
   const [requiredByStation, setRequiredByStation] = useState({
-    C: 0, K: 0, BVR: 0, FF: 0, TS: 0
+    C: 0, K: 0, K2: 0, BVR: 0, FF: 0, TS: 0
   })
 
   useEffect(() => {
@@ -27,10 +27,11 @@ export function VizPageContent() {
     setRequiredByStation({
       C: Math.ceil(guests / 40),
       K: Math.ceil(guests / 35),
+      K2: Math.ceil(guests / 35),
       BVR: Math.ceil(guests / 50),
       FF: Math.ceil(guests / 60),
       TS: Math.ceil(guests / 25)
-    })
+});
   }, [forecast, currentDateIndex, currentHour])
 
   const selectedStationEmployees = selectedStationKey ? (employeesByStation[selectedStationKey] || []) : []
@@ -38,15 +39,15 @@ export function VizPageContent() {
   return (
     <div>
       <TimeControls />
-      {/* <TechnicalOverlay 
+      {<TechnicalOverlay 
         employeesByStation={employeesByStation}
         requiredByStation={requiredByStation}
-      /> */}
-      {/* <StationsGrid 
+      /> }
+      { <StationsGrid 
         employeesByStation={employeesByStation}
         requiredByStation={requiredByStation}
         onSelectStation={setSelectedStationKey}
-      /> */}
+      /> }
       <AnimatedMap 
         employeesByStation={employeesByStation}
       />

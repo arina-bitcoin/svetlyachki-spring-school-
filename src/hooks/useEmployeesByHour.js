@@ -13,7 +13,7 @@ export function useEmployeesByHour() {
   const employeesByStation = useMemo(() => {
     if (!schedule.length || !currentDate) return { C: [], K: [], BVR: [], FF: [], TS: [] }
     
-    const result = { C: [], K: [], BVR: [], FF: [], TS: [] }
+    const result = { C: [], K: [], K2: [], BVR: [], FF: [], TS: [] }
     for (const shift of schedule) {
       if (shift.date === currentDate && shift.starttime <= currentHour && shift.finishtime > currentHour) {
         const station = shift.station_key
