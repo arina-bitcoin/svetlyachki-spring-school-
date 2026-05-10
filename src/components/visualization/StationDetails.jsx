@@ -1,10 +1,12 @@
 export function StationDetails({ stationKey, employees, onClose }) {
   const stationNames = {
-    C: 'Прилавок',
-    K: 'Кухня',
-    BVR: 'Напитки',
-    FF: 'Картофель',
-    TS: 'Зал'
+      C: 'Прилавок',
+      C2: 'Прилавок',
+      K: 'Кухня',
+      K2: 'Кухня',
+      BVR: 'Напитки',
+      FF: 'Картофель',
+      TS: 'Зал'
   }
   return (
     <div className="station-details">
