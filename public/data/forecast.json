@@ -1,0 +1,19 @@
+[
+  { "date": "2026-05-09", "hour": 7, "guests_count": 20 },
+  { "date": "2026-05-09", "hour": 8, "guests_count": 25 },
+  { "date": "2026-05-09", "hour": 9, "guests_count": 30 },
+  { "date": "2026-05-09", "hour": 10, "guests_count": 35 },
+  { "date": "2026-05-09", "hour": 11, "guests_count": 40 },
+  { "date": "2026-05-09", "hour": 12, "guests_count": 60 },
+  { "date": "2026-05-09", "hour": 13, "guests_count": 70 },
+  { "date": "2026-05-09", "hour": 14, "guests_count": 65 },
+  { "date": "2026-05-09", "hour": 15, "guests_count": 50 },
+  { "date": "2026-05-09", "hour": 16, "guests_count": 45 },
+  { "date": "2026-05-09", "hour": 17, "guests_count": 55 },
+  { "date": "2026-05-09", "hour": 18, "guests_count": 80 },
+  { "date": "2026-05-09", "hour": 19, "guests_count": 90 },
+  { "date": "2026-05-09", "hour": 20, "guests_count": 85 },
+  { "date": "2026-05-09", "hour": 21, "guests_count": 70 },
+  { "date": "2026-05-09", "hour": 22, "guests_count": 50 },
+  { "date": "2026-05-09", "hour": 23, "guests_count": 30 }
+]

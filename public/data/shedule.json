@@ -1,0 +1,10 @@
+[
+  { "employee_id": 101, "station_key": "C", "date": "2026-05-09", "starttime": 7, "finishtime": 15 },
+  { "employee_id": 102, "station_key": "C", "date": "2026-05-09", "starttime": 12, "finishtime": 20 },
+  { "employee_id": 103, "station_key": "K", "date": "2026-05-09", "starttime": 8, "finishtime": 16 },
+  { "employee_id": 104, "station_key": "K", "date": "2026-05-09", "starttime": 14, "finishtime": 22 },
+  { "employee_id": 105, "station_key": "BVR", "date": "2026-05-09", "starttime": 9, "finishtime": 17 },
+  { "employee_id": 106, "station_key": "FF", "date": "2026-05-09", "starttime": 10, "finishtime": 18 },
+  { "employee_id": 107, "station_key": "TS", "date": "2026-05-09", "starttime": 11, "finishtime": 19 },
+  { "employee_id": 108, "station_key": "TS", "date": "2026-05-09", "starttime": 15, "finishtime": 23 }
+]
