@@ -11,15 +11,24 @@ export function EmployeeIcon({ employeeId }) {
 
   return (
     <AnimatePresence mode="wait">
-      <motion.div
-        key={employeeId}
-        className="employee-icon"
-        style={{ backgroundImage: `url(/assets/cooker.png)` }}
-        {...animation}
-      >
-        <ParticleEffect />
-        <span className="employee-tooltip">{employeeId}</span>
-      </motion.div>
+        <motion.div
+            key={employeeId}
+            className="employee-icon"
+            style={{
+                backgroundImage: `url(/assets/animated_cook.gif)`,
+                position: 'relative',
+                // Уменьшаем сам контейнер
+                width: '70px',
+                height: '70px',
+                // 'contain' гарантирует, что гифка впишется в эти размеры целиком без обрезки
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+            }}
+            {...animation}
+        >
+            <ParticleEffect />
+        </motion.div>
     </AnimatePresence>
   )
 }

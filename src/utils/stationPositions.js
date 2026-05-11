@@ -19,10 +19,10 @@
 
 
 export const stationPositions = {
-  C: { top: '73%', left: '50%', width: '150px', img: 'counter.png', name: 'Прилавок' },
+  C: { top: '69%', left: '50%', width: '150px', img: 'counter.png', name: 'Прилавок' },
   K: { top: '22%', left: '50%', width: '150px', img: 'kitchen.png', name: 'Кухня' },
-  K2: { top: '29%', left: '58%', width: '150px', img: 'kitchen.png', name: 'Кухня' },
-  BVR: { top: '53%', left: '22%', width: '150px', img: 'drinks.png', name: 'Напитки' },
-  FF: { top: '42%', left: '32%', width: '150px', img: 'fries.png', name: 'Фритюр' },
+  K2: { top: '33%', left: '63%', width: '150px', img: 'kitchen.png', name: 'Кухня' },
+  BVR: { top: '53%', left: '25%', width: '150px', img: 'drinks.png', name: 'Напитки' },
+  FF: { top: '44%', left: '35%', width: '150px', img: 'fries.png', name: 'Фритюр' },
   TS: { top: '62%', left: '69%', width: '4%', img: 'hall.png', name: 'Зал' }
 };

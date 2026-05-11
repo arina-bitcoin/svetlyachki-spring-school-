@@ -3,7 +3,6 @@ import { ProgressBar } from '../common/ProgressBar'
 
 const stationNames = {
   C: 'Прилавок',
-  C2: 'Прилавок',
   K: 'Кухня',
   K2: 'Кухня',
   BVR: 'Напитки',
@@ -12,12 +11,11 @@ const stationNames = {
 }
 
 const stationIcons = {
-  C: 'counter.png',
-  C2: 'counter.png',
-  K: 'kitchen.png',
+  C: 'counter2.png',
+  K: 'kitchen2.png',
   K2: 'kitchen.png',
-  BVR: 'drinks.png',
-  FF: 'fries.png',
+  BVR: 'cup2.png',
+  FF: 'fries2.png',
   TS: 'hall.png'
 }
 
@@ -29,11 +27,6 @@ export function StationCard({ stationKey, employeeIds, requiredCount, onSelect }
         src={`/assets/stations/${stationIcons[stationKey]}`}
         alt={stationNames[stationKey]}
       />
-      <div className="employees-list">
-        {employeeIds.map(empId => (
-          <EmployeeIcon key={empId} employeeId={empId} />
-        ))}
-      </div>
       <ProgressBar actual={actualCount} required={requiredCount} />
       <div style={{ fontSize: '0.8rem', textAlign: 'center', marginTop: '4px' }}>
         {actualCount} / {requiredCount}
