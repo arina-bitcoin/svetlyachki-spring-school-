@@ -31,7 +31,7 @@ export function VizPageContent() {
     // Ищем требуемое количество сотрудников для текущей даты и часа
     const demandForHour = demand.filter(d => d.date === currentDate && d.hour === currentHour)
     
-    console.log('📋 demandForHour для', currentDate, currentHour + ':00', ':', demandForHour)
+    console.log('demandForHour для', currentDate, currentHour + ':00', ':', demandForHour)
     
     const newRequired = { C: 0, K: 0, K2: 0, BVR: 0, FF: 0, TS: 0 }
     demandForHour.forEach(d => {
@@ -48,10 +48,10 @@ export function VizPageContent() {
   return (
     <div>
       <TimeControls />
-      <TechnicalOverlay 
+      {/* <TechnicalOverlay 
         employeesByStation={employeesByStation}
         requiredByStation={requiredByStation}
-      />
+      /> */}
       <StationsGrid 
         employeesByStation={employeesByStation}
         requiredByStation={requiredByStation}
