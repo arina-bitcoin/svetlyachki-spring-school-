@@ -1,0 +1,1535 @@
+[
+  {
+    "employee_id": 44,
+    "station_key": "BVR",
+    "date": "2026-04-27",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 2,
+    "station_key": "C",
+    "date": "2026-04-27",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 4,
+    "station_key": "C",
+    "date": "2026-04-27",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 6,
+    "station_key": "FF",
+    "date": "2026-04-27",
+    "starttime": 7,
+    "finishtime": 14
+  },
+  {
+    "employee_id": 8,
+    "station_key": "K",
+    "date": "2026-04-27",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 19,
+    "station_key": "K",
+    "date": "2026-04-27",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 54,
+    "station_key": "K",
+    "date": "2026-04-27",
+    "starttime": 7,
+    "finishtime": 15
+  },
+  {
+    "employee_id": 31,
+    "station_key": "TS",
+    "date": "2026-04-27",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 36,
+    "station_key": "C",
+    "date": "2026-04-27",
+    "starttime": 8,
+    "finishtime": 15
+  },
+  {
+    "employee_id": 17,
+    "station_key": "K",
+    "date": "2026-04-27",
+    "starttime": 8,
+    "finishtime": 17
+  },
+  {
+    "employee_id": 38,
+    "station_key": "C",
+    "date": "2026-04-27",
+    "starttime": 9,
+    "finishtime": 18
+  },
+  {
+    "employee_id": 5,
+    "station_key": "K",
+    "date": "2026-04-27",
+    "starttime": 9,
+    "finishtime": 14
+  },
+  {
+    "employee_id": 14,
+    "station_key": "K",
+    "date": "2026-04-27",
+    "starttime": 9,
+    "finishtime": 18
+  },
+  {
+    "employee_id": 61,
+    "station_key": "K",
+    "date": "2026-04-27",
+    "starttime": 10,
+    "finishtime": 18
+  },
+  {
+    "employee_id": 45,
+    "station_key": "C",
+    "date": "2026-04-27",
+    "starttime": 12,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 43,
+    "station_key": "C",
+    "date": "2026-04-27",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 11,
+    "station_key": "FF",
+    "date": "2026-04-27",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 15,
+    "station_key": "K",
+    "date": "2026-04-27",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 32,
+    "station_key": "K",
+    "date": "2026-04-27",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 3,
+    "station_key": "BVR",
+    "date": "2026-04-27",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 50,
+    "station_key": "C",
+    "date": "2026-04-27",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 56,
+    "station_key": "C",
+    "date": "2026-04-27",
+    "starttime": 16,
+    "finishtime": 22
+  },
+  {
+    "employee_id": 20,
+    "station_key": "TS",
+    "date": "2026-04-27",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 7,
+    "station_key": "K",
+    "date": "2026-04-27",
+    "starttime": 17,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 39,
+    "station_key": "K",
+    "date": "2026-04-27",
+    "starttime": 17,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 53,
+    "station_key": "K",
+    "date": "2026-04-27",
+    "starttime": 17,
+    "finishtime": 21
+  },
+  {
+    "employee_id": 49,
+    "station_key": "C",
+    "date": "2026-04-27",
+    "starttime": 18,
+    "finishtime": 22
+  },
+  {
+    "employee_id": 24,
+    "station_key": "K",
+    "date": "2026-04-27",
+    "starttime": 19,
+    "finishtime": 22
+  },
+  {
+    "employee_id": 30,
+    "station_key": "K",
+    "date": "2026-04-27",
+    "starttime": 20,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 47,
+    "station_key": "BVR",
+    "date": "2026-04-28",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 36,
+    "station_key": "C",
+    "date": "2026-04-28",
+    "starttime": 7,
+    "finishtime": 13
+  },
+  {
+    "employee_id": 54,
+    "station_key": "C",
+    "date": "2026-04-28",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 8,
+    "station_key": "FF",
+    "date": "2026-04-28",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 2,
+    "station_key": "K",
+    "date": "2026-04-28",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 17,
+    "station_key": "K",
+    "date": "2026-04-28",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 59,
+    "station_key": "K",
+    "date": "2026-04-28",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 28,
+    "station_key": "TS",
+    "date": "2026-04-28",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 38,
+    "station_key": "C",
+    "date": "2026-04-28",
+    "starttime": 8,
+    "finishtime": 17
+  },
+  {
+    "employee_id": 52,
+    "station_key": "K",
+    "date": "2026-04-28",
+    "starttime": 8,
+    "finishtime": 17
+  },
+  {
+    "employee_id": 5,
+    "station_key": "K",
+    "date": "2026-04-28",
+    "starttime": 9,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 4,
+    "station_key": "C",
+    "date": "2026-04-28",
+    "starttime": 10,
+    "finishtime": 19
+  },
+  {
+    "employee_id": 6,
+    "station_key": "K",
+    "date": "2026-04-28",
+    "starttime": 10,
+    "finishtime": 19
+  },
+  {
+    "employee_id": 45,
+    "station_key": "C",
+    "date": "2026-04-28",
+    "starttime": 12,
+    "finishtime": 15
+  },
+  {
+    "employee_id": 14,
+    "station_key": "K",
+    "date": "2026-04-28",
+    "starttime": 12,
+    "finishtime": 21
+  },
+  {
+    "employee_id": 18,
+    "station_key": "C",
+    "date": "2026-04-28",
+    "starttime": 13,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 32,
+    "station_key": "BVR",
+    "date": "2026-04-28",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 66,
+    "station_key": "K",
+    "date": "2026-04-28",
+    "starttime": 15,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 22,
+    "station_key": "TS",
+    "date": "2026-04-28",
+    "starttime": 15,
+    "finishtime": 21
+  },
+  {
+    "employee_id": 56,
+    "station_key": "C",
+    "date": "2026-04-28",
+    "starttime": 16,
+    "finishtime": 22
+  },
+  {
+    "employee_id": 3,
+    "station_key": "FF",
+    "date": "2026-04-28",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 20,
+    "station_key": "K",
+    "date": "2026-04-28",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 34,
+    "station_key": "K",
+    "date": "2026-04-28",
+    "starttime": 16,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 35,
+    "station_key": "C",
+    "date": "2026-04-28",
+    "starttime": 17,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 16,
+    "station_key": "K",
+    "date": "2026-04-28",
+    "starttime": 17,
+    "finishtime": 21
+  },
+  {
+    "employee_id": 19,
+    "station_key": "K",
+    "date": "2026-04-28",
+    "starttime": 18,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 46,
+    "station_key": "K",
+    "date": "2026-04-28",
+    "starttime": 18,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 7,
+    "station_key": "TS",
+    "date": "2026-04-28",
+    "starttime": 18,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 11,
+    "station_key": "C",
+    "date": "2026-04-28",
+    "starttime": 19,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 33,
+    "station_key": "K",
+    "date": "2026-04-28",
+    "starttime": 19,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 41,
+    "station_key": "TS",
+    "date": "2026-04-28",
+    "starttime": 19,
+    "finishtime": 22
+  },
+  {
+    "employee_id": 47,
+    "station_key": "BVR",
+    "date": "2026-04-29",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 32,
+    "station_key": "C",
+    "date": "2026-04-29",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 43,
+    "station_key": "C",
+    "date": "2026-04-29",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 15,
+    "station_key": "FF",
+    "date": "2026-04-29",
+    "starttime": 7,
+    "finishtime": 13
+  },
+  {
+    "employee_id": 4,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 8,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 28,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 1,
+    "station_key": "TS",
+    "date": "2026-04-29",
+    "starttime": 7,
+    "finishtime": 15
+  },
+  {
+    "employee_id": 14,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 8,
+    "finishtime": 17
+  },
+  {
+    "employee_id": 52,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 8,
+    "finishtime": 17
+  },
+  {
+    "employee_id": 5,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 9,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 45,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 10,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 38,
+    "station_key": "C",
+    "date": "2026-04-29",
+    "starttime": 11,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 22,
+    "station_key": "FF",
+    "date": "2026-04-29",
+    "starttime": 11,
+    "finishtime": 19
+  },
+  {
+    "employee_id": 16,
+    "station_key": "C",
+    "date": "2026-04-29",
+    "starttime": 12,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 51,
+    "station_key": "C",
+    "date": "2026-04-29",
+    "starttime": 12,
+    "finishtime": 15
+  },
+  {
+    "employee_id": 18,
+    "station_key": "C",
+    "date": "2026-04-29",
+    "starttime": 13,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 31,
+    "station_key": "C",
+    "date": "2026-04-29",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 11,
+    "station_key": "TS",
+    "date": "2026-04-29",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 37,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 15,
+    "finishtime": 18
+  },
+  {
+    "employee_id": 27,
+    "station_key": "BVR",
+    "date": "2026-04-29",
+    "starttime": 16,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 59,
+    "station_key": "C",
+    "date": "2026-04-29",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 3,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 10,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 16,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 17,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 53,
+    "station_key": "C",
+    "date": "2026-04-29",
+    "starttime": 17,
+    "finishtime": 21
+  },
+  {
+    "employee_id": 12,
+    "station_key": "FF",
+    "date": "2026-04-29",
+    "starttime": 17,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 30,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 17,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 44,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 17,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 49,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 18,
+    "finishtime": 22
+  },
+  {
+    "employee_id": 33,
+    "station_key": "BVR",
+    "date": "2026-04-29",
+    "starttime": 19,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 20,
+    "station_key": "K",
+    "date": "2026-04-29",
+    "starttime": 19,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 6,
+    "station_key": "FF",
+    "date": "2026-04-29",
+    "starttime": 20,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 8,
+    "station_key": "BVR",
+    "date": "2026-04-30",
+    "starttime": 7,
+    "finishtime": 14
+  },
+  {
+    "employee_id": 17,
+    "station_key": "C",
+    "date": "2026-04-30",
+    "starttime": 7,
+    "finishtime": 15
+  },
+  {
+    "employee_id": 59,
+    "station_key": "C",
+    "date": "2026-04-30",
+    "starttime": 7,
+    "finishtime": 15
+  },
+  {
+    "employee_id": 43,
+    "station_key": "FF",
+    "date": "2026-04-30",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 1,
+    "station_key": "K",
+    "date": "2026-04-30",
+    "starttime": 7,
+    "finishtime": 14
+  },
+  {
+    "employee_id": 28,
+    "station_key": "K",
+    "date": "2026-04-30",
+    "starttime": 7,
+    "finishtime": 15
+  },
+  {
+    "employee_id": 66,
+    "station_key": "K",
+    "date": "2026-04-30",
+    "starttime": 7,
+    "finishtime": 10
+  },
+  {
+    "employee_id": 52,
+    "station_key": "TS",
+    "date": "2026-04-30",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 15,
+    "station_key": "K",
+    "date": "2026-04-30",
+    "starttime": 8,
+    "finishtime": 17
+  },
+  {
+    "employee_id": 38,
+    "station_key": "K",
+    "date": "2026-04-30",
+    "starttime": 8,
+    "finishtime": 17
+  },
+  {
+    "employee_id": 5,
+    "station_key": "K",
+    "date": "2026-04-30",
+    "starttime": 9,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 56,
+    "station_key": "C",
+    "date": "2026-04-30",
+    "starttime": 10,
+    "finishtime": 14
+  },
+  {
+    "employee_id": 45,
+    "station_key": "K",
+    "date": "2026-04-30",
+    "starttime": 10,
+    "finishtime": 17
+  },
+  {
+    "employee_id": 11,
+    "station_key": "C",
+    "date": "2026-04-30",
+    "starttime": 11,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 21,
+    "station_key": "C",
+    "date": "2026-04-30",
+    "starttime": 12,
+    "finishtime": 17
+  },
+  {
+    "employee_id": 51,
+    "station_key": "C",
+    "date": "2026-04-30",
+    "starttime": 12,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 23,
+    "station_key": "K",
+    "date": "2026-04-30",
+    "starttime": 12,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 7,
+    "station_key": "BVR",
+    "date": "2026-04-30",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 44,
+    "station_key": "K",
+    "date": "2026-04-30",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 53,
+    "station_key": "C",
+    "date": "2026-04-30",
+    "starttime": 15,
+    "finishtime": 19
+  },
+  {
+    "employee_id": 20,
+    "station_key": "C",
+    "date": "2026-04-30",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 40,
+    "station_key": "FF",
+    "date": "2026-04-30",
+    "starttime": 16,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 19,
+    "station_key": "K",
+    "date": "2026-04-30",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 31,
+    "station_key": "K",
+    "date": "2026-04-30",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 50,
+    "station_key": "K",
+    "date": "2026-04-30",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 10,
+    "station_key": "TS",
+    "date": "2026-04-30",
+    "starttime": 16,
+    "finishtime": 19
+  },
+  {
+    "employee_id": 22,
+    "station_key": "C",
+    "date": "2026-04-30",
+    "starttime": 17,
+    "finishtime": 21
+  },
+  {
+    "employee_id": 36,
+    "station_key": "K",
+    "date": "2026-04-30",
+    "starttime": 17,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 63,
+    "station_key": "BVR",
+    "date": "2026-04-30",
+    "starttime": 19,
+    "finishtime": 22
+  },
+  {
+    "employee_id": 3,
+    "station_key": "C",
+    "date": "2026-04-30",
+    "starttime": 19,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 54,
+    "station_key": "TS",
+    "date": "2026-04-30",
+    "starttime": 19,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 32,
+    "station_key": "FF",
+    "date": "2026-04-30",
+    "starttime": 20,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 4,
+    "station_key": "BVR",
+    "date": "2026-05-01",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 19,
+    "station_key": "C",
+    "date": "2026-05-01",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 59,
+    "station_key": "FF",
+    "date": "2026-05-01",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 7,
+    "station_key": "K",
+    "date": "2026-05-01",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 47,
+    "station_key": "K",
+    "date": "2026-05-01",
+    "starttime": 7,
+    "finishtime": 10
+  },
+  {
+    "employee_id": 44,
+    "station_key": "TS",
+    "date": "2026-05-01",
+    "starttime": 7,
+    "finishtime": 10
+  },
+  {
+    "employee_id": 28,
+    "station_key": "C",
+    "date": "2026-05-01",
+    "starttime": 8,
+    "finishtime": 17
+  },
+  {
+    "employee_id": 8,
+    "station_key": "K",
+    "date": "2026-05-01",
+    "starttime": 8,
+    "finishtime": 13
+  },
+  {
+    "employee_id": 5,
+    "station_key": "K",
+    "date": "2026-05-01",
+    "starttime": 9,
+    "finishtime": 15
+  },
+  {
+    "employee_id": 22,
+    "station_key": "C",
+    "date": "2026-05-01",
+    "starttime": 10,
+    "finishtime": 18
+  },
+  {
+    "employee_id": 45,
+    "station_key": "TS",
+    "date": "2026-05-01",
+    "starttime": 10,
+    "finishtime": 17
+  },
+  {
+    "employee_id": 21,
+    "station_key": "K",
+    "date": "2026-05-01",
+    "starttime": 11,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 51,
+    "station_key": "K",
+    "date": "2026-05-01",
+    "starttime": 12,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 18,
+    "station_key": "K",
+    "date": "2026-05-01",
+    "starttime": 13,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 31,
+    "station_key": "K",
+    "date": "2026-05-01",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 54,
+    "station_key": "K",
+    "date": "2026-05-01",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 66,
+    "station_key": "BVR",
+    "date": "2026-05-01",
+    "starttime": 15,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 53,
+    "station_key": "FF",
+    "date": "2026-05-01",
+    "starttime": 15,
+    "finishtime": 19
+  },
+  {
+    "employee_id": 56,
+    "station_key": "C",
+    "date": "2026-05-01",
+    "starttime": 16,
+    "finishtime": 22
+  },
+  {
+    "employee_id": 20,
+    "station_key": "K",
+    "date": "2026-05-01",
+    "starttime": 16,
+    "finishtime": 22
+  },
+  {
+    "employee_id": 26,
+    "station_key": "K",
+    "date": "2026-05-01",
+    "starttime": 16,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 42,
+    "station_key": "BVR",
+    "date": "2026-05-01",
+    "starttime": 17,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 1,
+    "station_key": "C",
+    "date": "2026-05-01",
+    "starttime": 17,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 55,
+    "station_key": "TS",
+    "date": "2026-05-01",
+    "starttime": 17,
+    "finishtime": 21
+  },
+  {
+    "employee_id": 0,
+    "station_key": "C",
+    "date": "2026-05-01",
+    "starttime": 18,
+    "finishtime": 21
+  },
+  {
+    "employee_id": 49,
+    "station_key": "C",
+    "date": "2026-05-01",
+    "starttime": 18,
+    "finishtime": 22
+  },
+  {
+    "employee_id": 3,
+    "station_key": "FF",
+    "date": "2026-05-01",
+    "starttime": 18,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 50,
+    "station_key": "K",
+    "date": "2026-05-01",
+    "starttime": 18,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 58,
+    "station_key": "BVR",
+    "date": "2026-05-01",
+    "starttime": 19,
+    "finishtime": 22
+  },
+  {
+    "employee_id": 30,
+    "station_key": "K",
+    "date": "2026-05-01",
+    "starttime": 19,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 36,
+    "station_key": "C",
+    "date": "2026-05-01",
+    "starttime": 20,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 33,
+    "station_key": "K",
+    "date": "2026-05-01",
+    "starttime": 20,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 2,
+    "station_key": "TS",
+    "date": "2026-05-01",
+    "starttime": 20,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 14,
+    "station_key": "BVR",
+    "date": "2026-05-02",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 47,
+    "station_key": "C",
+    "date": "2026-05-02",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 17,
+    "station_key": "FF",
+    "date": "2026-05-02",
+    "starttime": 7,
+    "finishtime": 10
+  },
+  {
+    "employee_id": 1,
+    "station_key": "K",
+    "date": "2026-05-02",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 31,
+    "station_key": "K",
+    "date": "2026-05-02",
+    "starttime": 7,
+    "finishtime": 12
+  },
+  {
+    "employee_id": 59,
+    "station_key": "K",
+    "date": "2026-05-02",
+    "starttime": 7,
+    "finishtime": 10
+  },
+  {
+    "employee_id": 13,
+    "station_key": "TS",
+    "date": "2026-05-02",
+    "starttime": 7,
+    "finishtime": 11
+  },
+  {
+    "employee_id": 43,
+    "station_key": "C",
+    "date": "2026-05-02",
+    "starttime": 8,
+    "finishtime": 13
+  },
+  {
+    "employee_id": 48,
+    "station_key": "BVR",
+    "date": "2026-05-02",
+    "starttime": 9,
+    "finishtime": 13
+  },
+  {
+    "employee_id": 16,
+    "station_key": "K",
+    "date": "2026-05-02",
+    "starttime": 9,
+    "finishtime": 12
+  },
+  {
+    "employee_id": 26,
+    "station_key": "TS",
+    "date": "2026-05-02",
+    "starttime": 9,
+    "finishtime": 13
+  },
+  {
+    "employee_id": 64,
+    "station_key": "C",
+    "date": "2026-05-02",
+    "starttime": 10,
+    "finishtime": 14
+  },
+  {
+    "employee_id": 60,
+    "station_key": "FF",
+    "date": "2026-05-02",
+    "starttime": 10,
+    "finishtime": 15
+  },
+  {
+    "employee_id": 2,
+    "station_key": "K",
+    "date": "2026-05-02",
+    "starttime": 11,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 21,
+    "station_key": "K",
+    "date": "2026-05-02",
+    "starttime": 11,
+    "finishtime": 17
+  },
+  {
+    "employee_id": 68,
+    "station_key": "K",
+    "date": "2026-05-02",
+    "starttime": 11,
+    "finishtime": 19
+  },
+  {
+    "employee_id": 9,
+    "station_key": "TS",
+    "date": "2026-05-02",
+    "starttime": 12,
+    "finishtime": 19
+  },
+  {
+    "employee_id": 18,
+    "station_key": "C",
+    "date": "2026-05-02",
+    "starttime": 13,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 51,
+    "station_key": "K",
+    "date": "2026-05-02",
+    "starttime": 13,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 33,
+    "station_key": "BVR",
+    "date": "2026-05-02",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 52,
+    "station_key": "C",
+    "date": "2026-05-02",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 66,
+    "station_key": "C",
+    "date": "2026-05-02",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 15,
+    "station_key": "K",
+    "date": "2026-05-02",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 11,
+    "station_key": "FF",
+    "date": "2026-05-02",
+    "starttime": 15,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 10,
+    "station_key": "K",
+    "date": "2026-05-02",
+    "starttime": 16,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 54,
+    "station_key": "K",
+    "date": "2026-05-02",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 30,
+    "station_key": "C",
+    "date": "2026-05-02",
+    "starttime": 17,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 44,
+    "station_key": "K",
+    "date": "2026-05-02",
+    "starttime": 17,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 29,
+    "station_key": "K",
+    "date": "2026-05-02",
+    "starttime": 18,
+    "finishtime": 22
+  },
+  {
+    "employee_id": 50,
+    "station_key": "K",
+    "date": "2026-05-02",
+    "starttime": 18,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 6,
+    "station_key": "TS",
+    "date": "2026-05-02",
+    "starttime": 18,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 43,
+    "station_key": "BVR",
+    "date": "2026-05-03",
+    "starttime": 7,
+    "finishtime": 15
+  },
+  {
+    "employee_id": 52,
+    "station_key": "C",
+    "date": "2026-05-03",
+    "starttime": 7,
+    "finishtime": 11
+  },
+  {
+    "employee_id": 13,
+    "station_key": "FF",
+    "date": "2026-05-03",
+    "starttime": 7,
+    "finishtime": 11
+  },
+  {
+    "employee_id": 1,
+    "station_key": "K",
+    "date": "2026-05-03",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 47,
+    "station_key": "K",
+    "date": "2026-05-03",
+    "starttime": 7,
+    "finishtime": 16
+  },
+  {
+    "employee_id": 7,
+    "station_key": "TS",
+    "date": "2026-05-03",
+    "starttime": 7,
+    "finishtime": 10
+  },
+  {
+    "employee_id": 16,
+    "station_key": "K",
+    "date": "2026-05-03",
+    "starttime": 9,
+    "finishtime": 13
+  },
+  {
+    "employee_id": 64,
+    "station_key": "TS",
+    "date": "2026-05-03",
+    "starttime": 9,
+    "finishtime": 13
+  },
+  {
+    "employee_id": 61,
+    "station_key": "C",
+    "date": "2026-05-03",
+    "starttime": 10,
+    "finishtime": 17
+  },
+  {
+    "employee_id": 65,
+    "station_key": "C",
+    "date": "2026-05-03",
+    "starttime": 10,
+    "finishtime": 14
+  },
+  {
+    "employee_id": 60,
+    "station_key": "FF",
+    "date": "2026-05-03",
+    "starttime": 10,
+    "finishtime": 15
+  },
+  {
+    "employee_id": 21,
+    "station_key": "C",
+    "date": "2026-05-03",
+    "starttime": 11,
+    "finishtime": 18
+  },
+  {
+    "employee_id": 23,
+    "station_key": "K",
+    "date": "2026-05-03",
+    "starttime": 12,
+    "finishtime": 21
+  },
+  {
+    "employee_id": 56,
+    "station_key": "K",
+    "date": "2026-05-03",
+    "starttime": 12,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 67,
+    "station_key": "K",
+    "date": "2026-05-03",
+    "starttime": 13,
+    "finishtime": 17
+  },
+  {
+    "employee_id": 9,
+    "station_key": "TS",
+    "date": "2026-05-03",
+    "starttime": 13,
+    "finishtime": 18
+  },
+  {
+    "employee_id": 19,
+    "station_key": "C",
+    "date": "2026-05-03",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 66,
+    "station_key": "FF",
+    "date": "2026-05-03",
+    "starttime": 14,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 25,
+    "station_key": "BVR",
+    "date": "2026-05-03",
+    "starttime": 15,
+    "finishtime": 18
+  },
+  {
+    "employee_id": 62,
+    "station_key": "BVR",
+    "date": "2026-05-03",
+    "starttime": 16,
+    "finishtime": 19
+  },
+  {
+    "employee_id": 2,
+    "station_key": "K",
+    "date": "2026-05-03",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 15,
+    "station_key": "K",
+    "date": "2026-05-03",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 57,
+    "station_key": "K",
+    "date": "2026-05-03",
+    "starttime": 16,
+    "finishtime": 20
+  },
+  {
+    "employee_id": 32,
+    "station_key": "TS",
+    "date": "2026-05-03",
+    "starttime": 16,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 0,
+    "station_key": "C",
+    "date": "2026-05-03",
+    "starttime": 17,
+    "finishtime": 21
+  },
+  {
+    "employee_id": 33,
+    "station_key": "C",
+    "date": "2026-05-03",
+    "starttime": 18,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 4,
+    "station_key": "BVR",
+    "date": "2026-05-03",
+    "starttime": 19,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 36,
+    "station_key": "C",
+    "date": "2026-05-03",
+    "starttime": 19,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 14,
+    "station_key": "K",
+    "date": "2026-05-03",
+    "starttime": 19,
+    "finishtime": 23
+  },
+  {
+    "employee_id": 6,
+    "station_key": "K",
+    "date": "2026-05-03",
+    "starttime": 20,
+    "finishtime": 23
+  }
+]

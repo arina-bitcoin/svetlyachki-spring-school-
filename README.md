@@ -4,13 +4,19 @@
 ```plaintext
 project-root/
 ├── public/
-│   ├── assets/                            # иконки, спрайты
-│   │   ├── stations/
-│   │   │   ├── counter.svg
-│   │   │   ├── kitchen.svg
-│   │   │   ├── drinks.svg
-│   │   │   ├── fries.svg
-│   │   │   └── hall.svg
+│   ├── assets/
+│   │   ├── background.png                    # фон зала 
+│   │   ├── animated_cook.gif                 # анимированный повар 
+│   │   ├── stations/                         # иконки станций
+│   │   │   ├── counter.png
+│   │   │   ├── kitchen.png
+│   │   │   ├── drinks.png
+│   │   │   ├── fries.png
+│   │   │   ├── hall.png
+│   │   │   ├── counter2.png
+│   │   │   ├── kitchen2.png
+│   │   │   ├── cup2.png
+│   │   │   └── fries2.png
 │   │   ├── employees/
 │   │   │   └── chef.svg
 │   │   └── ui/
@@ -18,61 +24,68 @@ project-root/
 │   │       ├── pause.svg
 │   │       └── star.svg
 │   │
-│   └── data/                              # заглушка (или загружается по API)
-│       ├── forecast.json                  # с бэка
-│       └── schedule.json                  # с бэка
+│   └── data/
+│       ├── forecast.json                     # прогноз гостей (7 дней)
+│       ├── schedule.json                     # расписание сотрудников
+│       └── demand.json                       # требуемое количество сотрудников 
 │
 ├── src/
-│   ├── api/                               #
-│   │   └── dataService.js                 # fetch('/data/forecast.json') и schedule.json
+│   ├── api/
+│   │   └── dataService.js                    # загрузка forecast, schedule, demand
 │   │
-│   ├── store/                             # 
-│   │   └── useSimulationStore.js          # forecast, schedule, currentDateIndex, currentHour, isPlaying, selectedStationKey, speed, actions
+│   ├── store/
+│   │   └── useSimulationStore.js             # Zustand: forecast, schedule, demand, часы, дата, play/pause
 │   │
 │   ├── components/
-│   │   ├── Layout.jsx                     # навигация (/viz, /search, /charts)
+│   │   ├── Layout.jsx                        # навигация (/viz, /search, /charts, /gantt)
 │   │   │
-│   │   ├── visualization/                 # страница с человечками
-│   │   │   ├── VizPageContent.jsx         # Собирает всё: сетку станций + панель времени + техническую сводку
-│   │   │   ├── StationsGrid.jsx           # Грид 5 станций, каждая – StationCard
-│   │   │   ├── StationCard.jsx            # Карточка станции: иконка, список иконок сотрудников, прогресс-бар покрытия
-│   │   │   ├── EmployeeIcon.jsx           # Иконка сотрудника с анимацией появления (scale) и исчезновения (exit)
-│   │   │   ├── StationDetails.jsx         # Боковая панель: детальный список сотрудников на выбранной станции
-│   │   │   ├── TechnicalOverlay.jsx       # Сводка: для каждой станции – факт / требование, цветовой статус
-│   │   │   └── TimeControls.jsx           # Слайдер часа, кнопка Play/Pause, отображение текущей даты
+│   │   ├── visualization/                    # СТРАНИЦА ВИЗУАЛИЗАЦИИ (мультик)
+│   │   │   ├── VizPageContent.jsx            # собирает всё вместе
+│   │   │   ├── StationsGrid.jsx              # грид карточек станций
+│   │   │   ├── StationCard.jsx               # карточка станции
+│   │   │   ├── AnimateMap.jsx                # карта с фоном и мебелью 
+│   │   │   ├── EmployeeIcon.jsx              # иконка сотрудника с анимацией
+│   │   │   ├── StationDetails.jsx            # боковая панель с деталями
+│   │   │   ├── TechnicalOverlay.jsx          # техническая сводка
+│   │   │   └── TimeControls.jsx              # управление временем
 │   │   │
-│   │   ├── employeeSearch/                # поиск сотрудников
-│   │   │   ├── EmployeeSearchPage.jsx
-│   │   │   ├── EmployeeScheduleTable.jsx
-│   │   │   └── EmployeeStats.jsx
+│   │   ├── employeeSearch/                   # СТРАНИЦА ПОИСКА СОТРУДНИКА
+│   │   │   ├── EmployeeSearchPage.jsx        # форма поиска
+│   │   │   ├── EmployeeScheduleTable.jsx     # таблица расписания
+│   │   │   └── EmployeeStats.jsx             # статистика сотрудника
 │   │   │
-│   │   ├── charts/                        # графики из прогноза и расписания
-│   │   │   ├── ChartsPageContent.jsx
-│   │   │   ├── GuestsForecastChart.jsx    # данные из forecast
-│   │   │   └── CoverageHeatmap.jsx        # данные из schedule
+│   │   ├── charts/                           # СТРАНИЦА ГРАФИКОВ
+│   │   │   ├── ChartsPageContent.jsx         # контейнер с выбором дня
+│   │   │   └── EmployeesVsGuestsChart.jsx    # график сотрудники vs гости
+│   │   │
+│   │   ├── gantt/                            # ОТДЕЛЬНАЯ СТРАНИЦА ГАНТА (добавлена)
+│   │   │   └── GanttChartPage.jsx            # полноэкранная диаграмма Ганта
 │   │   │
 │   │   └── common/
-│   │       ├── ParticleEffect.jsx         # разные эффекты 
-│   │       └── ProgressBar.jsx
+│   │       ├── ParticleEffect.jsx            # частицы при появлении сотрудника
+│   │       └── ProgressBar.jsx               # прогресс-бар покрытия
 │   │
-│   ├── pages/                             # роуты
-│   │   ├── VizPage.jsx
-│   │   ├── EmployeeSearchPage.jsx
-│   │   └── ChartsPage.jsx
+│   ├── pages/                                # СТРАНИЦЫ-ОБЁРТКИ ДЛЯ РОУТОВ
+│   │   ├── VizPage.jsx                       # обёртка визуализации
+│   │   ├── EmployeeSearchPage.jsx            # обёртка поиска
+│   │   ├── ChartsPage.jsx                    # обёртка графиков
+│   │   └── GanttPage.jsx                     # обёртка диаграммы Ганта (добавлена)
 │   │
 │   ├── hooks/
-│   │   ├── useSimulationTimer.js          # таймер
-│   │   └── useEmployeesByHour.js          # выборка по текущему часу/дню из schedule
+│   │   ├── useSimulationTimer.js             # авто-переключение часов
+│   │   └── useEmployeesByHour.js             # фильтрация сотрудников по часу/дате
 │   │
 │   ├── utils/
-│   │   ├── convertSchedule.js             # schedule → { date, hour, station: [emplIds] }
-│   │   └── colors.js
+│   │   ├── stationPositions.js               # координаты станций для карты (добавлен)
+│   │   ├── convertSchedule.js                # конвертация расписания
+│   │   └── colors.js                         # цветовая схема
 │   │
-│   ├── App.jsx                            # роутер
-│   ├── main.jsx
-│   └── index.css
+│   ├── App.jsx                               # роутер 
+│   ├── main.jsx                              # точка входа
+│   └── index.css                             # глобальные стили
 │
 ├── .env
-├── package.json
-├── vite.config.js
+├── package.json                              # зависимости
+├── vite.config.js                            # конфиг Vite
+├── Svetlyachki.ipynb                         # Алгоритм составления расписания + форматирование в JSON
 └── README.md
