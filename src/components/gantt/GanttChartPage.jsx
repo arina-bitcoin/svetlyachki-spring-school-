@@ -27,7 +27,7 @@ export function GanttChart({ employeeId }) {
   
   const uniqueDates = [...new Map(forecast.map(f => [f.date, f.date])).values()];
   const currentDate = uniqueDates[selectedDayIndex];
-  const hours = Array.from({ length: 17 }, (_, i) => i + 7);
+  const hours = Array.from({ length: 16 }, (_, i) => i + 7);
   
   const employeesWithShifts = [...new Set(
     schedule
