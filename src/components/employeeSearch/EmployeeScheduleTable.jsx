@@ -27,7 +27,7 @@ export function EmployeeScheduleTable({ employeeId }) {
     }
   });
 
-  const hours = Array.from({ length: 17 }, (_, i) => i + 7);
+  const hours = Array.from({ length: 16 }, (_, i) => i + 7);
 
   return (
     <div style={{ marginTop: '30px', overflowX: 'auto' }}>

@@ -69,7 +69,7 @@ export function EmployeeStats({ employeeId }) {
           borderRadius: '8px',
           borderLeft: '4px solid #f39c12'
         }}>
-          ⚠️ Внимание: переработка ({totalHours} часов при норме 40)
+          Внимание: переработка ({totalHours} часов при норме 40)
         </div>
       )}
       
@@ -80,7 +80,7 @@ export function EmployeeStats({ employeeId }) {
           borderRadius: '8px',
           borderLeft: '4px solid #e74c3c'
         }}>
-          ⚠️ Внимание: недоработка ({totalHours} часов при норме 40)
+          Внимание: недоработка ({totalHours} часов при норме 40)
         </div>
       )}
     </div>
