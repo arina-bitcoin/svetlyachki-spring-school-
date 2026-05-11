@@ -1,0 +1,3362 @@
+[
+  {
+    "date": "2026-04-27",
+    "hour": 7,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 7,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 7,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 7,
+    "station_key": "K",
+    "required": 3
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 7,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 8,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 8,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 8,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 8,
+    "station_key": "K",
+    "required": 4
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 8,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 9,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 9,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 9,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 9,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 9,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 10,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 10,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 10,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 10,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 10,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 11,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 11,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 11,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 11,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 11,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 12,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 12,
+    "station_key": "C",
+    "required": 5
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 12,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 12,
+    "station_key": "K",
+    "required": 7
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 12,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 13,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 13,
+    "station_key": "C",
+    "required": 5
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 13,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 13,
+    "station_key": "K",
+    "required": 7
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 13,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 14,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 14,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 14,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 14,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 14,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 15,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 15,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 15,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 15,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 15,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 16,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 16,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 16,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 16,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 16,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 17,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 17,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 17,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 17,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 17,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 18,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 18,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 18,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 18,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 18,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 19,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 19,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 19,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 19,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 19,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 20,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 20,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 20,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 20,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 20,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 21,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 21,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 21,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 21,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 21,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 22,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 22,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 22,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 22,
+    "station_key": "K",
+    "required": 4
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 22,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 7,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 7,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 7,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 7,
+    "station_key": "K",
+    "required": 3
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 7,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 8,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 8,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 8,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 8,
+    "station_key": "K",
+    "required": 4
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 8,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 9,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 9,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 9,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 9,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 9,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 10,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 10,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 10,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 10,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 10,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 11,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 11,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 11,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 11,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 11,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 12,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 12,
+    "station_key": "C",
+    "required": 5
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 12,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 12,
+    "station_key": "K",
+    "required": 7
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 12,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 13,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 13,
+    "station_key": "C",
+    "required": 5
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 13,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 13,
+    "station_key": "K",
+    "required": 7
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 13,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 14,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 14,
+    "station_key": "C",
+    "required": 5
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 14,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 14,
+    "station_key": "K",
+    "required": 7
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 14,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 15,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 15,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 15,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 15,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 15,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 16,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 16,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 16,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 16,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 16,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 17,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 17,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 17,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 17,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 17,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 18,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 18,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 18,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 18,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 18,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 19,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 19,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 19,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 19,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 19,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 20,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 20,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 20,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 20,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 20,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 21,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 21,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 21,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 21,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 21,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 22,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 22,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 22,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 22,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 22,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 7,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 7,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 7,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 7,
+    "station_key": "K",
+    "required": 3
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 7,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 8,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 8,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 8,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 8,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 8,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 9,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 9,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 9,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 9,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 9,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 10,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 10,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 10,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 10,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 10,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 11,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 11,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 11,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 11,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 11,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 12,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 12,
+    "station_key": "C",
+    "required": 5
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 12,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 12,
+    "station_key": "K",
+    "required": 7
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 12,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 13,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 13,
+    "station_key": "C",
+    "required": 6
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 13,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 13,
+    "station_key": "K",
+    "required": 7
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 13,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 14,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 14,
+    "station_key": "C",
+    "required": 5
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 14,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 14,
+    "station_key": "K",
+    "required": 7
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 14,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 15,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 15,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 15,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 15,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 15,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 16,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 16,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 16,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 16,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 16,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 17,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 17,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 17,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 17,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 17,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 18,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 18,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 18,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 18,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 18,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 19,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 19,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 19,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 19,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 19,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 20,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 20,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 20,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 20,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 20,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 21,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 21,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 21,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 21,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 21,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 22,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 22,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 22,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 22,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 22,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 7,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 7,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 7,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 7,
+    "station_key": "K",
+    "required": 3
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 7,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 8,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 8,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 8,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 8,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 8,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 9,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 9,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 9,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 9,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 9,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 10,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 10,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 10,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 10,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 10,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 11,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 11,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 11,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 11,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 11,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 12,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 12,
+    "station_key": "C",
+    "required": 5
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 12,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 12,
+    "station_key": "K",
+    "required": 7
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 12,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 13,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 13,
+    "station_key": "C",
+    "required": 6
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 13,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 13,
+    "station_key": "K",
+    "required": 7
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 13,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 14,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 14,
+    "station_key": "C",
+    "required": 5
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 14,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 14,
+    "station_key": "K",
+    "required": 7
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 14,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 15,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 15,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 15,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 15,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 15,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 16,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 16,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 16,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 16,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 16,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 17,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 17,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 17,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 17,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 17,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 18,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 18,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 18,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 18,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 18,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 19,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 19,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 19,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 19,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 19,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 20,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 20,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 20,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 20,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 20,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 21,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 21,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 21,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 21,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 21,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 22,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 22,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 22,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 22,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 22,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 7,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 7,
+    "station_key": "C",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 7,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 7,
+    "station_key": "K",
+    "required": 2
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 7,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 8,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 8,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 8,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 8,
+    "station_key": "K",
+    "required": 3
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 8,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 9,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 9,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 9,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 9,
+    "station_key": "K",
+    "required": 3
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 9,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 10,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 10,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 10,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 10,
+    "station_key": "K",
+    "required": 3
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 10,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 11,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 11,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 11,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 11,
+    "station_key": "K",
+    "required": 4
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 11,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 12,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 12,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 12,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 12,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 12,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 13,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 13,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 13,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 13,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 13,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 14,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 14,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 14,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 14,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 14,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 15,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 15,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 15,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 15,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 15,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 16,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 16,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 16,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 16,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 16,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 17,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 17,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 17,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 17,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 17,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 18,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 18,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 18,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 18,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 18,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 19,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 19,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 19,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 19,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 19,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 20,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 20,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 20,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 20,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 20,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 21,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 21,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 21,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 21,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 21,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 22,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 22,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 22,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 22,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 22,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 7,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 7,
+    "station_key": "C",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 7,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 7,
+    "station_key": "K",
+    "required": 2
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 7,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 8,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 8,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 8,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 8,
+    "station_key": "K",
+    "required": 2
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 8,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 9,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 9,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 9,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 9,
+    "station_key": "K",
+    "required": 3
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 9,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 10,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 10,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 10,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 10,
+    "station_key": "K",
+    "required": 3
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 10,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 11,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 11,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 11,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 11,
+    "station_key": "K",
+    "required": 4
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 11,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 12,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 12,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 12,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 12,
+    "station_key": "K",
+    "required": 4
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 12,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 13,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 13,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 13,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 13,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 13,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 14,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 14,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 14,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 14,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 14,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 15,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 15,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 15,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 15,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 15,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 16,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 16,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 16,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 16,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 16,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 17,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 17,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 17,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 17,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 17,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 18,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 18,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 18,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 18,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 18,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 19,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 19,
+    "station_key": "C",
+    "required": 4
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 19,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 19,
+    "station_key": "K",
+    "required": 6
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 19,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 20,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 20,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 20,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 20,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 20,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 21,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 21,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 21,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 21,
+    "station_key": "K",
+    "required": 4
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 21,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 22,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 22,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 22,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 22,
+    "station_key": "K",
+    "required": 4
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 22,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 7,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 7,
+    "station_key": "C",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 7,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 7,
+    "station_key": "K",
+    "required": 2
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 7,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 8,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 8,
+    "station_key": "C",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 8,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 8,
+    "station_key": "K",
+    "required": 2
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 8,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 9,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 9,
+    "station_key": "C",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 9,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 9,
+    "station_key": "K",
+    "required": 2
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 9,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 10,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 10,
+    "station_key": "C",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 10,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 10,
+    "station_key": "K",
+    "required": 3
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 10,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 11,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 11,
+    "station_key": "C",
+    "required": 2
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 11,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 11,
+    "station_key": "K",
+    "required": 3
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 11,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 12,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 12,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 12,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 12,
+    "station_key": "K",
+    "required": 4
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 12,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 13,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 13,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 13,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 13,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 13,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 14,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 14,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 14,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 14,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 14,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 15,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 15,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 15,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 15,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 15,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 16,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 16,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 16,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 16,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 16,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 17,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 17,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 17,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 17,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 17,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 18,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 18,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 18,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 18,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 18,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 19,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 19,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 19,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 19,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 19,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 20,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 20,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 20,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 20,
+    "station_key": "K",
+    "required": 5
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 20,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 21,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 21,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 21,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 21,
+    "station_key": "K",
+    "required": 4
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 21,
+    "station_key": "TS",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 22,
+    "station_key": "BVR",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 22,
+    "station_key": "C",
+    "required": 3
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 22,
+    "station_key": "FF",
+    "required": 1
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 22,
+    "station_key": "K",
+    "required": 4
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 22,
+    "station_key": "TS",
+    "required": 1
+  }
+]
