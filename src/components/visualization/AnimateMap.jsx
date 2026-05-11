@@ -10,12 +10,9 @@ const MANAGER_PATH = {
 
 export function AnimatedMap({ employeesByStation }) {
     const { setSelectedStationKey } = useSimulationStore();
-
-    // Теперь только два этапа: менеджер идет (walking) и все готово (ready)
     const [animationStep, setAnimationStep] = useState('walking');
 
     useEffect(() => {
-        // Через 2 секунды (когда менеджер дойдет) включаем всё остальное
         const timer = setTimeout(() => {
             setAnimationStep('ready');
         }, 2000);
@@ -25,7 +22,6 @@ export function AnimatedMap({ employeesByStation }) {
 
     const isReady = animationStep === 'ready';
 
-    // Логика перераспределения сотрудников K -> K2 (макс 3 на K)
     const processedEmployees = useMemo(() => {
         const result = { ...employeesByStation };
         const kEmployees = result['K'] || [];
@@ -44,36 +40,74 @@ export function AnimatedMap({ employeesByStation }) {
                     from { top: ${MANAGER_PATH.start.top}; left: ${MANAGER_PATH.start.left}; }
                     to { top: ${MANAGER_PATH.end.top}; left: ${MANAGER_PATH.end.left}; }
                 }
+                
+                @keyframes bubbleFade {
+                    0% { opacity: 0; transform: translate(-50%, -20px) scale(0.5); }
+                    15% { opacity: 1; transform: translate(-50%, -40px) scale(1); }
+                    85% { opacity: 1; transform: translate(-50%, -40px) scale(1); }
+                    100% { opacity: 0; transform: translate(-50%, -20px) scale(0.5); }
+                }
+
                 .employee-slot {
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: center;
                     gap: 4px;
-                    min-height: 32px; /* Резервируем место, чтобы мебель не прыгала */
+                    min-height: 32px;
                     width: 100%;
+                }
+
+                .speech-bubble {
+                    position: absolute;
+                    left: 50%;
+                    background: white;
+                    color: #333;
+                    padding: 4px 10px;
+                    border-radius: 12px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    white-space: nowrap;
+                    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+                    z-index: 12;
+                    animation: bubbleFade 2s ease-in-out forwards;
+                }
+
+                .speech-bubble::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -6px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    border-width: 6px 6px 0;
+                    border-style: solid;
+                    border-color: white transparent transparent;
                 }
             `}</style>
 
-            {/* Фон всегда на месте */}
+            {/* Фон */}
             <img
                 src="/assets/background.png"
                 alt="Background"
                 style={{ width: '70%', display: 'block', margin: '0 auto', borderRadius: '20px', userSelect: 'none' }}
             />
 
-            {/* МЕНЕДЖЕР: исчезает, как только наступает этап 'ready' */}
+            {/* МЕНЕДЖЕР С НАДПИСЬЮ */}
             {animationStep === 'walking' && (
-                <img
-                    src="/assets/animated_cook.gif"
-                    alt="Manager"
-                    style={{
-                        position: 'absolute',
-                        width: '60px',
-                        zIndex: 10,
-                        transform: 'translate(-50%, -50%)',
-                        animation: 'managerWalk 2s linear forwards'
-                    }}
-                />
+                <div style={{
+                    position: 'absolute',
+                    zIndex: 10,
+                    transform: 'translate(-50%, -50%)',
+                    animation: 'managerWalk 2s linear forwards'
+                }}>
+                    <div className="speech-bubble">
+                        Доброе утро! ☀️
+                    </div>
+                    <img
+                        src="/assets/animated_cook.gif"
+                        alt="Manager"
+                        style={{ width: '60px', display: 'block' }}
+                    />
+                </div>
             )}
 
             {/* Отрисовка станций */}
@@ -81,7 +115,6 @@ export function AnimatedMap({ employeesByStation }) {
                 const isCounter = key === 'C';
                 const isTS = key === 'TS';
 
-                // Считаем общую сумму для K (K + K2)
                 let totalCount = (processedEmployees[key] || []).length;
                 if (key === 'K') {
                     totalCount = (employeesByStation['K'] || []).length + (employeesByStation['K2'] || []).length;
@@ -101,7 +134,6 @@ export function AnimatedMap({ employeesByStation }) {
                         }}
                         onClick={() => setSelectedStationKey(key === 'K2' ? 'K' : key)}
                     >
-                        {/* Верхний слот для человечков */}
                         <div className="employee-slot">
                             {isReady && isCounter && (
                                 (processedEmployees[key] || []).map(empId => (
@@ -110,7 +142,6 @@ export function AnimatedMap({ employeesByStation }) {
                             )}
                         </div>
 
-                        {/* Мебель */}
                         {!isTS && (
                             <img
                                 src={`/assets/stations/${pos.img}`}
@@ -119,7 +150,6 @@ export function AnimatedMap({ employeesByStation }) {
                             />
                         )}
 
-                        {/* Нижний слот для человечков */}
                         <div className="employee-slot">
                             {isReady && !isCounter && (
                                 (processedEmployees[key] || []).map(empId => (
@@ -128,7 +158,6 @@ export function AnimatedMap({ employeesByStation }) {
                             )}
                         </div>
 
-                        {/* Индикатор количества (скрыт на K2) */}
                         {isReady && key !== 'K2' && (
                             <div style={{
                                 fontSize: '0.7rem',
