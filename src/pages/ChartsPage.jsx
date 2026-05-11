@@ -111,7 +111,7 @@ export default function ChartsPage() {
                     marginBottom: '1rem',
                     color: '#555'
                 }}>
-                    👥 Общая потребность в сотрудниках
+                    Общая потребность в сотрудниках
                 </h2>
                 <div style={{ height: '450px' }}>
                     <TotalStaffChart />

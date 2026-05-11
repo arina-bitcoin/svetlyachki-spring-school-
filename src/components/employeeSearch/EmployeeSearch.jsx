@@ -25,8 +25,8 @@ export function EmployeeStats({ employeeId }) {
   // Проверка на переработку (больше 40 часов в неделю)
   const isOvertime = totalHours > 40;
   
-  // Проверка на недоработку (меньше 20 часов в неделю)
-  const isUnderwork = totalHours < 20;
+  // Проверка на недоработку (меньше 3 часов в неделю)
+  const isUnderwork = totalHours < 3;
 
   return (
     <div style={{

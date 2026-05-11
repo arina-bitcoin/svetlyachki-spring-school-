@@ -81,7 +81,7 @@ export function EmployeeSearchPage() {
         </div>
       )}
 
-      {employeeId && (
+      {employeeId != null && (
         <>
           <EmployeeStats employeeId={employeeId} />
           <EmployeeScheduleTable employeeId={employeeId} />
