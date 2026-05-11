@@ -92,7 +92,8 @@ export function GanttChart({ employeeId }) {
         flexWrap: 'wrap',
         background: '#ede9e4',
         padding: '6px',
-        borderRadius: '14px'
+        borderRadius: '14px',
+        justifyContent: 'center'
       }}>
         {uniqueDates.map((date, idx) => (
           <button
@@ -130,7 +131,7 @@ export function GanttChart({ employeeId }) {
           В этот день нет работающих сотрудников
         </div>
       ) : (
-        <div style={{ overflowX: 'auto', borderRadius: '14px' }}>
+        <div style={{ overflowX: 'auto', borderRadius: '14px', display: 'flex', justifyContent: 'center' }}>
           <table style={{
             width: 'auto',
             borderCollapse: 'collapse',
