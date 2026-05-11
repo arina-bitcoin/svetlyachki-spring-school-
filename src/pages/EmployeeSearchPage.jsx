@@ -1,3 +1,5 @@
+import { EmployeeSearchPage as EmployeeSearchPageComponent } from '../components/employeeSearch/EmployeeSearchPage';
+
 export default function EmployeeSearchPage() {
-  return <div style={{ padding: '2rem' }}>Страница поиска сотрудника (будет реализована)</div>
+  return <EmployeeSearchPageComponent />;
 }

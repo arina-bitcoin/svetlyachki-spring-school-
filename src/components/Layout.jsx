@@ -8,7 +8,7 @@ export function Layout() {
           Визуализация
         </NavLink>
         <NavLink to="/search" style={({ isActive }) => ({ color: isActive ? '#f1c40f' : 'white', textDecoration: 'none', fontWeight: 'bold' })}>
-          Поиск сотрудника
+          Поиск расписания сотрудника
         </NavLink>
         <NavLink to="/charts" style={({ isActive }) => ({ color: isActive ? '#f1c40f' : 'white', textDecoration: 'none', fontWeight: 'bold' })}>
           Графики
