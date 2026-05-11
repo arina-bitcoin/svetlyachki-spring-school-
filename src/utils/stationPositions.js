@@ -24,5 +24,5 @@ export const stationPositions = {
   K2: { top: '33%', left: '63%', width: '150px', img: 'kitchen.png', name: 'Кухня' },
   BVR: { top: '53%', left: '25%', width: '150px', img: 'drinks.png', name: 'Напитки' },
   FF: { top: '44%', left: '35%', width: '150px', img: 'fries.png', name: 'Фритюр' },
-  TS: { top: '62%', left: '69%', width: '4%', img: 'hall.png', name: 'Зал' }
+  TS: { top: '62%', left: '69%', width: '150px', img: 'hall.png', name: 'Зал' }
 };
