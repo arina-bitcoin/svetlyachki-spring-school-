@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useSimulationStore } from '../../store/useSimulationStore';
 import { EmployeeScheduleTable } from './EmployeeScheduleTable';
-import { EmployeeStats } from './EmployeeStats';
+import { EmployeeStats } from './EmployeeSearch';
 
 export function EmployeeSearchPage() {
   const { schedule } = useSimulationStore();

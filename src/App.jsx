@@ -6,6 +6,7 @@ import { Layout } from './components/Layout'
 import VizPage from './pages/VizPage'
 import EmployeeSearchPage from './pages/EmployeeSearchPage'
 import ChartsPage from './pages/ChartsPage'
+import GanttPage from './pages/GanttPage'  // ← добавить импорт
 
 function App() {
   const { setForecast, setSchedule, setDemand } = useSimulationStore()
@@ -16,7 +17,7 @@ function App() {
         console.log('✅ Данные загружены:');
         console.log('  📊 forecast:', forecast?.length || 0, 'записей');
         console.log('  👥 schedule:', schedule?.length || 0, 'записей');
-        console.log('  📈 demand:', demand?.length || 0, 'записей');
+        console.log('  📋 demand:', demand?.length || 0, 'записей');
         setForecast(forecast);
         setSchedule(schedule);
         setDemand(demand);
@@ -24,7 +25,7 @@ function App() {
       .catch(err => {
         console.error('❌ Ошибка загрузки данных:', err);
       });
-  }, [])
+  }, []);
   
   return (
     <BrowserRouter>
@@ -34,6 +35,7 @@ function App() {
           <Route path="viz" element={<VizPage />} />
           <Route path="search" element={<EmployeeSearchPage />} />
           <Route path="charts" element={<ChartsPage />} />
+          <Route path="gantt" element={<GanttPage />} />  
         </Route>
       </Routes>
     </BrowserRouter>

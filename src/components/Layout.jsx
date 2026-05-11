@@ -13,6 +13,9 @@ export function Layout() {
         <NavLink to="/charts" style={({ isActive }) => ({ color: isActive ? '#f1c40f' : 'white', textDecoration: 'none', fontWeight: 'bold' })}>
           Графики
         </NavLink>
+        <NavLink to="/gantt" style={({ isActive }) => ({ color: isActive ? '#f1c40f' : 'white', textDecoration: 'none', fontWeight: 'bold' })}>
+          Диаграмма Ганта
+        </NavLink>
       </header>
       <main style={{ flex: 1, padding: '1rem' }}>
         <Outlet />
