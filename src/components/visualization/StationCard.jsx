@@ -4,7 +4,7 @@ import { ProgressBar } from '../common/ProgressBar'
 const stationNames = {
   C: 'Прилавок',
   K: 'Кухня',
-  K2: 'Кухня',
+  K2: 'Кухня2',
   BVR: 'Напитки',
   FF: 'Картофель',
   TS: 'Зал'
