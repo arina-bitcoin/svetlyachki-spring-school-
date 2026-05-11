@@ -4,7 +4,6 @@ import { ProgressBar } from '../common/ProgressBar'
 const stationNames = {
   C: 'Прилавок',
   K: 'Кухня',
-  K2: 'Кухня2',
   BVR: 'Напитки',
   FF: 'Картофель',
   TS: 'Зал'
@@ -13,7 +12,6 @@ const stationNames = {
 const stationIcons = {
   C: 'counter2.png',
   K: 'kitchen2.png',
-  K2: 'kitchen.png',
   BVR: 'cup2.png',
   FF: 'fries2.png',
   TS: 'hall.png'

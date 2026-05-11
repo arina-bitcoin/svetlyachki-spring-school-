@@ -1,9 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { EmployeeIcon } from './EmployeeIcon';
 import { stationPositions } from '../../utils/stationPositions';
 import { useSimulationStore } from '../../store/useSimulationStore';
 
-// Константы для путей, чтобы не дублировать
 const MANAGER_PATH = {
     start: { top: '62%', left: '69%' },
     end: { top: '69%', left: '50%' }
@@ -12,57 +11,58 @@ const MANAGER_PATH = {
 export function AnimatedMap({ employeesByStation }) {
     const { setSelectedStationKey } = useSimulationStore();
 
-    // Состояния для этапов анимации
-    const [animationStep, setAnimationStep] = useState('manager_walking'); // 'manager_walking' | 'banner' | 'ready'
+    // Теперь только два этапа: менеджер идет (walking) и все готово (ready)
+    const [animationStep, setAnimationStep] = useState('walking');
 
     useEffect(() => {
-        // 1. Время на проход менеджера (например, 2 секунды)
-        const walkTimer = setTimeout(() => {
-            setAnimationStep('banner');
+        // Через 2 секунды (когда менеджер дойдет) включаем всё остальное
+        const timer = setTimeout(() => {
+            setAnimationStep('ready');
         }, 2000);
 
-        // 2. Время показа надписи "Ресторан открыт" (еще 1.5 секунды)
-        const bannerTimer = setTimeout(() => {
-            setAnimationStep('ready');
-        }, 3500);
-
-        return () => {
-            clearTimeout(walkTimer);
-            clearTimeout(bannerTimer);
-        };
+        return () => clearTimeout(timer);
     }, []);
 
+    const isReady = animationStep === 'ready';
+
+    // Логика перераспределения сотрудников K -> K2 (макс 3 на K)
+    const processedEmployees = useMemo(() => {
+        const result = { ...employeesByStation };
+        const kEmployees = result['K'] || [];
+
+        if (kEmployees.length > 3) {
+            result['K'] = kEmployees.slice(0, 3);
+            result['K2'] = [...(result['K2'] || []), ...kEmployees.slice(3)];
+        }
+        return result;
+    }, [employeesByStation]);
+
     return (
-        <div style={{ position: 'relative', maxWidth: '1200px', margin: '0 auto', overflow: 'hidden' }}>
-            {/* Стили для анимаций */}
+        <div style={{ position: 'relative', maxWidth: '1200px', margin: '0 auto' }}>
             <style>{`
                 @keyframes managerWalk {
                     from { top: ${MANAGER_PATH.start.top}; left: ${MANAGER_PATH.start.left}; }
                     to { top: ${MANAGER_PATH.end.top}; left: ${MANAGER_PATH.end.left}; }
                 }
-                @keyframes fadeInOut {
-                    0% { opacity: 0; transform: translate(-50%, -60%); }
-                    20% { opacity: 1; transform: translate(-50%, -50%); }
-                    80% { opacity: 1; transform: translate(-50%, -50%); }
-                    100% { opacity: 0; transform: translate(-50%, -40%); }
+                .employee-slot {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 4px;
+                    min-height: 32px; /* Резервируем место, чтобы мебель не прыгала */
+                    width: 100%;
                 }
             `}</style>
 
-            {/* Фон зала */}
+            {/* Фон всегда на месте */}
             <img
                 src="/assets/background.png"
                 alt="Background"
-                style={{
-                    width: '70%',
-                    display: 'block',
-                    margin: '0 auto',
-                    borderRadius: '20px',
-                    userSelect: 'none'
-                }}
+                style={{ width: '70%', display: 'block', margin: '0 auto', borderRadius: '20px', userSelect: 'none' }}
             />
 
-            {/* МЕНЕДЖЕР (отображается только на первом этапе) */}
-            {animationStep === 'manager_walking' && (
+            {/* МЕНЕДЖЕР: исчезает, как только наступает этап 'ready' */}
+            {animationStep === 'walking' && (
                 <img
                     src="/assets/animated_cook.gif"
                     alt="Manager"
@@ -70,47 +70,22 @@ export function AnimatedMap({ employeesByStation }) {
                         position: 'absolute',
                         width: '60px',
                         zIndex: 10,
+                        transform: 'translate(-50%, -50%)',
                         animation: 'managerWalk 2s linear forwards'
                     }}
                 />
             )}
 
-            {/* НАДПИСЬ "РЕСТОРАН ОТКРЫТ" */}
-            {animationStep === 'banner' && (
-                <div style={{
-                    position: 'absolute',
-                    top: '50%',
-                    left: '50%',
-                    transform: 'translate(-50%, -50%)',
-                    backgroundColor: '#0F5A3C', // Цвет бренда
-                    color: 'white',
-                    padding: '20px 40px',
-                    borderRadius: '50px',
-                    fontSize: '2rem',
-                    fontWeight: 'bold',
-                    boxShadow: '0 10px 20px rgba(0,0,0,0.3)',
-                    zIndex: 20,
-                    animation: 'fadeInOut 1.5s ease-in-out forwards'
-                }}>
-                    РЕСТОРАН ОТКРЫТ
-                </div>
-            )}
-
-            {/* Станции поверх фона */}
+            {/* Отрисовка станций */}
             {Object.entries(stationPositions).map(([key, pos]) => {
                 const isCounter = key === 'C';
                 const isTS = key === 'TS';
 
-                // Сотрудники отображаются ТОЛЬКО после того, как ресторан открылся
-                const showEmployees = animationStep === 'ready';
-
-                const employeesBlock = showEmployees && (
-                    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '6px', margin: '8px 0' }}>
-                        {(employeesByStation[key] || []).map(empId => (
-                            <EmployeeIcon key={empId} employeeId={empId} />
-                        ))}
-                    </div>
-                );
+                // Считаем общую сумму для K (K + K2)
+                let totalCount = (processedEmployees[key] || []).length;
+                if (key === 'K') {
+                    totalCount = (employeesByStation['K'] || []).length + (employeesByStation['K2'] || []).length;
+                }
 
                 return (
                     <div
@@ -124,25 +99,37 @@ export function AnimatedMap({ employeesByStation }) {
                             cursor: 'pointer',
                             textAlign: 'center'
                         }}
-                        onClick={() => setSelectedStationKey(key)}
+                        onClick={() => setSelectedStationKey(key === 'K2' ? 'K' : key)}
                     >
-                        {/* 1. Человечки СВЕРХУ для прилавка */}
-                        {isCounter && employeesBlock}
+                        {/* Верхний слот для человечков */}
+                        <div className="employee-slot">
+                            {isReady && isCounter && (
+                                (processedEmployees[key] || []).map(empId => (
+                                    <EmployeeIcon key={empId} employeeId={empId} />
+                                ))
+                            )}
+                        </div>
 
-                        {/* Картинка мебели: отображается всегда */}
+                        {/* Мебель */}
                         {!isTS && (
                             <img
                                 src={`/assets/stations/${pos.img}`}
                                 alt={pos.name}
-                                style={{ width: '100%', objectFit: 'contain', pointerEvents: 'none' }}
+                                style={{ width: '100%', objectFit: 'contain', display: 'block' }}
                             />
                         )}
 
-                        {/* 2. Человечки СНИЗУ для остальных станций */}
-                        {!isCounter && employeesBlock}
+                        {/* Нижний слот для человечков */}
+                        <div className="employee-slot">
+                            {isReady && !isCounter && (
+                                (processedEmployees[key] || []).map(empId => (
+                                    <EmployeeIcon key={empId} employeeId={empId} />
+                                ))
+                            )}
+                        </div>
 
-                        {/* Мини-индикатор количества (тоже только после открытия) */}
-                        {showEmployees && (
+                        {/* Индикатор количества (скрыт на K2) */}
+                        {isReady && key !== 'K2' && (
                             <div style={{
                                 fontSize: '0.7rem',
                                 background: 'rgba(0,0,0,0.5)',
@@ -152,7 +139,7 @@ export function AnimatedMap({ employeesByStation }) {
                                 marginTop: '4px',
                                 display: 'inline-block'
                             }}>
-                                {(employeesByStation[key] || []).length}
+                                {totalCount}
                             </div>
                         )}
                     </div>

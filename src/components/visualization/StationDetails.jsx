@@ -2,7 +2,7 @@ export function StationDetails({ stationKey, employees, onClose }) {
   const stationNames = {
     C: 'Прилавок',
     K: 'Кухня',
-    K2: 'Кухня 2',
+    K2: 'Кухня',
     BVR: 'Напитки',
     FF: 'Картофель',
     TS: 'Зал'
