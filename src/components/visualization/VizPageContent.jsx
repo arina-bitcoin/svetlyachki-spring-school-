@@ -10,44 +10,53 @@ import { useState, useEffect } from 'react'
 
 export function VizPageContent() {
   useSimulationTimer()
-  const { forecast, currentDateIndex, currentHour, selectedStationKey, setSelectedStationKey } = useSimulationStore()
+  const { forecast, demand, currentDateIndex, currentHour, selectedStationKey, setSelectedStationKey } = useSimulationStore()
   const employeesByStation = useEmployeesByHour()
 
   const [requiredByStation, setRequiredByStation] = useState({
     C: 0, K: 0, K2: 0, BVR: 0, FF: 0, TS: 0
   })
 
+  // Используем demand.json для расчёта required
   useEffect(() => {
-    if (!forecast.length) return
+    if (!demand.length || !forecast.length) {
+      console.log('⚠️ demand или forecast пуст, required не рассчитан')
+      return
+    }
+    
+    // Получаем уникальные даты из forecast
     const uniqueDates = [...new Map(forecast.map(f => [f.date, f.date])).values()]
     const currentDate = uniqueDates[currentDateIndex]
-    const currentData = forecast.find(f => f.date === currentDate && f.hour === currentHour)
-    const guests = currentData?.guests_count || 0
-
-    setRequiredByStation({
-      C: Math.ceil(guests / 40),
-      K: Math.ceil(guests / 35),
-      K2: Math.ceil(guests / 35),
-      BVR: Math.ceil(guests / 50),
-      FF: Math.ceil(guests / 60),
-      TS: Math.ceil(guests / 25)
-});
-  }, [forecast, currentDateIndex, currentHour])
+    
+    // Ищем требуемое количество сотрудников для текущей даты и часа
+    const demandForHour = demand.filter(d => d.date === currentDate && d.hour === currentHour)
+    
+    console.log('📋 demandForHour для', currentDate, currentHour + ':00', ':', demandForHour)
+    
+    const newRequired = { C: 0, K: 0, K2: 0, BVR: 0, FF: 0, TS: 0 }
+    demandForHour.forEach(d => {
+      if (newRequired.hasOwnProperty(d.station_key)) {
+        newRequired[d.station_key] = d.required
+      }
+    })
+    
+    setRequiredByStation(newRequired)
+  }, [demand, forecast, currentDateIndex, currentHour])
 
   const selectedStationEmployees = selectedStationKey ? (employeesByStation[selectedStationKey] || []) : []
 
   return (
     <div>
       <TimeControls />
-      {<TechnicalOverlay 
+      <TechnicalOverlay 
         employeesByStation={employeesByStation}
         requiredByStation={requiredByStation}
-      /> }
-      { <StationsGrid 
+      />
+      <StationsGrid 
         employeesByStation={employeesByStation}
         requiredByStation={requiredByStation}
         onSelectStation={setSelectedStationKey}
-      /> }
+      />
       <AnimatedMap 
         employeesByStation={employeesByStation}
       />

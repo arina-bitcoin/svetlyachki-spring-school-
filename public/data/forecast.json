@@ -1,127 +1,562 @@
 [
-  { "date": "2026-05-09", "hour": 7, "guests_count": 20 },
-  { "date": "2026-05-09", "hour": 8, "guests_count": 25 },
-  { "date": "2026-05-09", "hour": 9, "guests_count": 30 },
-  { "date": "2026-05-09", "hour": 10, "guests_count": 35 },
-  { "date": "2026-05-09", "hour": 11, "guests_count": 40 },
-  { "date": "2026-05-09", "hour": 12, "guests_count": 60 },
-  { "date": "2026-05-09", "hour": 13, "guests_count": 70 },
-  { "date": "2026-05-09", "hour": 14, "guests_count": 65 },
-  { "date": "2026-05-09", "hour": 15, "guests_count": 50 },
-  { "date": "2026-05-09", "hour": 16, "guests_count": 45 },
-  { "date": "2026-05-09", "hour": 17, "guests_count": 55 },
-  { "date": "2026-05-09", "hour": 18, "guests_count": 80 },
-  { "date": "2026-05-09", "hour": 19, "guests_count": 90 },
-  { "date": "2026-05-09", "hour": 20, "guests_count": 85 },
-  { "date": "2026-05-09", "hour": 21, "guests_count": 70 },
-  { "date": "2026-05-09", "hour": 22, "guests_count": 50 },
-  { "date": "2026-05-09", "hour": 23, "guests_count": 30 },
-
-  { "date": "2026-05-10", "hour": 7, "guests_count": 18 },
-  { "date": "2026-05-10", "hour": 8, "guests_count": 22 },
-  { "date": "2026-05-10", "hour": 9, "guests_count": 28 },
-  { "date": "2026-05-10", "hour": 10, "guests_count": 32 },
-  { "date": "2026-05-10", "hour": 11, "guests_count": 45 },
-  { "date": "2026-05-10", "hour": 12, "guests_count": 65 },
-  { "date": "2026-05-10", "hour": 13, "guests_count": 75 },
-  { "date": "2026-05-10", "hour": 14, "guests_count": 70 },
-  { "date": "2026-05-10", "hour": 15, "guests_count": 55 },
-  { "date": "2026-05-10", "hour": 16, "guests_count": 48 },
-  { "date": "2026-05-10", "hour": 17, "guests_count": 60 },
-  { "date": "2026-05-10", "hour": 18, "guests_count": 85 },
-  { "date": "2026-05-10", "hour": 19, "guests_count": 95 },
-  { "date": "2026-05-10", "hour": 20, "guests_count": 88 },
-  { "date": "2026-05-10", "hour": 21, "guests_count": 72 },
-  { "date": "2026-05-10", "hour": 22, "guests_count": 52 },
-  { "date": "2026-05-10", "hour": 23, "guests_count": 28 },
-
-  { "date": "2026-05-11", "hour": 7, "guests_count": 22 },
-  { "date": "2026-05-11", "hour": 8, "guests_count": 27 },
-  { "date": "2026-05-11", "hour": 9, "guests_count": 33 },
-  { "date": "2026-05-11", "hour": 10, "guests_count": 38 },
-  { "date": "2026-05-11", "hour": 11, "guests_count": 44 },
-  { "date": "2026-05-11", "hour": 12, "guests_count": 68 },
-  { "date": "2026-05-11", "hour": 13, "guests_count": 78 },
-  { "date": "2026-05-11", "hour": 14, "guests_count": 72 },
-  { "date": "2026-05-11", "hour": 15, "guests_count": 55 },
-  { "date": "2026-05-11", "hour": 16, "guests_count": 48 },
-  { "date": "2026-05-11", "hour": 17, "guests_count": 62 },
-  { "date": "2026-05-11", "hour": 18, "guests_count": 88 },
-  { "date": "2026-05-11", "hour": 19, "guests_count": 98 },
-  { "date": "2026-05-11", "hour": 20, "guests_count": 90 },
-  { "date": "2026-05-11", "hour": 21, "guests_count": 74 },
-  { "date": "2026-05-11", "hour": 22, "guests_count": 54 },
-  { "date": "2026-05-11", "hour": 23, "guests_count": 32 },
-
-  { "date": "2026-05-12", "hour": 7, "guests_count": 24 },
-  { "date": "2026-05-12", "hour": 8, "guests_count": 30 },
-  { "date": "2026-05-12", "hour": 9, "guests_count": 36 },
-  { "date": "2026-05-12", "hour": 10, "guests_count": 42 },
-  { "date": "2026-05-12", "hour": 11, "guests_count": 50 },
-  { "date": "2026-05-12", "hour": 12, "guests_count": 72 },
-  { "date": "2026-05-12", "hour": 13, "guests_count": 82 },
-  { "date": "2026-05-12", "hour": 14, "guests_count": 76 },
-  { "date": "2026-05-12", "hour": 15, "guests_count": 58 },
-  { "date": "2026-05-12", "hour": 16, "guests_count": 52 },
-  { "date": "2026-05-12", "hour": 17, "guests_count": 66 },
-  { "date": "2026-05-12", "hour": 18, "guests_count": 92 },
-  { "date": "2026-05-12", "hour": 19, "guests_count": 102 },
-  { "date": "2026-05-12", "hour": 20, "guests_count": 94 },
-  { "date": "2026-05-12", "hour": 21, "guests_count": 78 },
-  { "date": "2026-05-12", "hour": 22, "guests_count": 56 },
-  { "date": "2026-05-12", "hour": 23, "guests_count": 34 },
-
-  { "date": "2026-05-13", "hour": 7, "guests_count": 20 },
-  { "date": "2026-05-13", "hour": 8, "guests_count": 24 },
-  { "date": "2026-05-13", "hour": 9, "guests_count": 30 },
-  { "date": "2026-05-13", "hour": 10, "guests_count": 34 },
-  { "date": "2026-05-13", "hour": 11, "guests_count": 42 },
-  { "date": "2026-05-13", "hour": 12, "guests_count": 62 },
-  { "date": "2026-05-13", "hour": 13, "guests_count": 72 },
-  { "date": "2026-05-13", "hour": 14, "guests_count": 66 },
-  { "date": "2026-05-13", "hour": 15, "guests_count": 50 },
-  { "date": "2026-05-13", "hour": 16, "guests_count": 44 },
-  { "date": "2026-05-13", "hour": 17, "guests_count": 56 },
-  { "date": "2026-05-13", "hour": 18, "guests_count": 82 },
-  { "date": "2026-05-13", "hour": 19, "guests_count": 92 },
-  { "date": "2026-05-13", "hour": 20, "guests_count": 86 },
-  { "date": "2026-05-13", "hour": 21, "guests_count": 70 },
-  { "date": "2026-05-13", "hour": 22, "guests_count": 48 },
-  { "date": "2026-05-13", "hour": 23, "guests_count": 28 },
-
-  { "date": "2026-05-14", "hour": 7, "guests_count": 26 },
-  { "date": "2026-05-14", "hour": 8, "guests_count": 32 },
-  { "date": "2026-05-14", "hour": 9, "guests_count": 38 },
-  { "date": "2026-05-14", "hour": 10, "guests_count": 44 },
-  { "date": "2026-05-14", "hour": 11, "guests_count": 52 },
-  { "date": "2026-05-14", "hour": 12, "guests_count": 75 },
-  { "date": "2026-05-14", "hour": 13, "guests_count": 85 },
-  { "date": "2026-05-14", "hour": 14, "guests_count": 80 },
-  { "date": "2026-05-14", "hour": 15, "guests_count": 60 },
-  { "date": "2026-05-14", "hour": 16, "guests_count": 54 },
-  { "date": "2026-05-14", "hour": 17, "guests_count": 68 },
-  { "date": "2026-05-14", "hour": 18, "guests_count": 95 },
-  { "date": "2026-05-14", "hour": 19, "guests_count": 105 },
-  { "date": "2026-05-14", "hour": 20, "guests_count": 96 },
-  { "date": "2026-05-14", "hour": 21, "guests_count": 80 },
-  { "date": "2026-05-14", "hour": 22, "guests_count": 58 },
-  { "date": "2026-05-14", "hour": 23, "guests_count": 36 },
-
-  { "date": "2026-05-15", "hour": 7, "guests_count": 28 },
-  { "date": "2026-05-15", "hour": 8, "guests_count": 34 },
-  { "date": "2026-05-15", "hour": 9, "guests_count": 40 },
-  { "date": "2026-05-15", "hour": 10, "guests_count": 46 },
-  { "date": "2026-05-15", "hour": 11, "guests_count": 55 },
-  { "date": "2026-05-15", "hour": 12, "guests_count": 78 },
-  { "date": "2026-05-15", "hour": 13, "guests_count": 88 },
-  { "date": "2026-05-15", "hour": 14, "guests_count": 82 },
-  { "date": "2026-05-15", "hour": 15, "guests_count": 62 },
-  { "date": "2026-05-15", "hour": 16, "guests_count": 56 },
-  { "date": "2026-05-15", "hour": 17, "guests_count": 70 },
-  { "date": "2026-05-15", "hour": 18, "guests_count": 98 },
-  { "date": "2026-05-15", "hour": 19, "guests_count": 108 },
-  { "date": "2026-05-15", "hour": 20, "guests_count": 98 },
-  { "date": "2026-05-15", "hour": 21, "guests_count": 82 },
-  { "date": "2026-05-15", "hour": 22, "guests_count": 60 },
-  { "date": "2026-05-15", "hour": 23, "guests_count": 38 }
+  {
+    "date": "2026-04-27",
+    "hour": 7,
+    "guests_count": 45
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 8,
+    "guests_count": 81
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 9,
+    "guests_count": 86
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 10,
+    "guests_count": 74
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 11,
+    "guests_count": 96
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 12,
+    "guests_count": 158
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 13,
+    "guests_count": 174
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 14,
+    "guests_count": 146
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 15,
+    "guests_count": 131
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 16,
+    "guests_count": 129
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 17,
+    "guests_count": 124
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 18,
+    "guests_count": 134
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 19,
+    "guests_count": 131
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 20,
+    "guests_count": 107
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 21,
+    "guests_count": 86
+  },
+  {
+    "date": "2026-04-27",
+    "hour": 22,
+    "guests_count": 71
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 7,
+    "guests_count": 45
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 8,
+    "guests_count": 84
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 9,
+    "guests_count": 90
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 10,
+    "guests_count": 78
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 11,
+    "guests_count": 101
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 12,
+    "guests_count": 176
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 13,
+    "guests_count": 189
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 14,
+    "guests_count": 162
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 15,
+    "guests_count": 141
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 16,
+    "guests_count": 135
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 17,
+    "guests_count": 136
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 18,
+    "guests_count": 149
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 19,
+    "guests_count": 143
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 20,
+    "guests_count": 117
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 21,
+    "guests_count": 93
+  },
+  {
+    "date": "2026-04-28",
+    "hour": 22,
+    "guests_count": 80
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 7,
+    "guests_count": 49
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 8,
+    "guests_count": 88
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 9,
+    "guests_count": 92
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 10,
+    "guests_count": 84
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 11,
+    "guests_count": 104
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 12,
+    "guests_count": 173
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 13,
+    "guests_count": 195
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 14,
+    "guests_count": 159
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 15,
+    "guests_count": 143
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 16,
+    "guests_count": 138
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 17,
+    "guests_count": 140
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 18,
+    "guests_count": 149
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 19,
+    "guests_count": 144
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 20,
+    "guests_count": 115
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 21,
+    "guests_count": 93
+  },
+  {
+    "date": "2026-04-29",
+    "hour": 22,
+    "guests_count": 83
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 7,
+    "guests_count": 50
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 8,
+    "guests_count": 87
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 9,
+    "guests_count": 89
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 10,
+    "guests_count": 83
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 11,
+    "guests_count": 102
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 12,
+    "guests_count": 176
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 13,
+    "guests_count": 195
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 14,
+    "guests_count": 163
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 15,
+    "guests_count": 145
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 16,
+    "guests_count": 139
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 17,
+    "guests_count": 140
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 18,
+    "guests_count": 153
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 19,
+    "guests_count": 147
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 20,
+    "guests_count": 117
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 21,
+    "guests_count": 100
+  },
+  {
+    "date": "2026-04-30",
+    "hour": 22,
+    "guests_count": 87
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 7,
+    "guests_count": 27
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 8,
+    "guests_count": 62
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 9,
+    "guests_count": 64
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 10,
+    "guests_count": 64
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 11,
+    "guests_count": 74
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 12,
+    "guests_count": 97
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 13,
+    "guests_count": 114
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 14,
+    "guests_count": 119
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 15,
+    "guests_count": 124
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 16,
+    "guests_count": 120
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 17,
+    "guests_count": 122
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 18,
+    "guests_count": 132
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 19,
+    "guests_count": 123
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 20,
+    "guests_count": 107
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 21,
+    "guests_count": 94
+  },
+  {
+    "date": "2026-05-01",
+    "hour": 22,
+    "guests_count": 87
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 7,
+    "guests_count": 25
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 8,
+    "guests_count": 46
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 9,
+    "guests_count": 55
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 10,
+    "guests_count": 58
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 11,
+    "guests_count": 72
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 12,
+    "guests_count": 85
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 13,
+    "guests_count": 104
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 14,
+    "guests_count": 120
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 15,
+    "guests_count": 110
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 16,
+    "guests_count": 109
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 17,
+    "guests_count": 113
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 18,
+    "guests_count": 116
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 19,
+    "guests_count": 112
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 20,
+    "guests_count": 97
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 21,
+    "guests_count": 84
+  },
+  {
+    "date": "2026-05-02",
+    "hour": 22,
+    "guests_count": 84
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 7,
+    "guests_count": 21
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 8,
+    "guests_count": 33
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 9,
+    "guests_count": 39
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 10,
+    "guests_count": 50
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 11,
+    "guests_count": 57
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 12,
+    "guests_count": 78
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 13,
+    "guests_count": 103
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 14,
+    "guests_count": 108
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 15,
+    "guests_count": 107
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 16,
+    "guests_count": 104
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 17,
+    "guests_count": 107
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 18,
+    "guests_count": 110
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 19,
+    "guests_count": 104
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 20,
+    "guests_count": 96
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 21,
+    "guests_count": 80
+  },
+  {
+    "date": "2026-05-03",
+    "hour": 22,
+    "guests_count": 74
+  }
 ]

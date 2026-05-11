@@ -13,3 +13,9 @@ export async function loadSchedule() {
   }
   return response.json();
 }
+
+
+export async function loadDemand() {
+  const response = await fetch('/data/demand.json');
+  return response.json();
+}

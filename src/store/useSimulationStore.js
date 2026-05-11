@@ -4,6 +4,7 @@ export const useSimulationStore = create((set, get) => ({
   // Данные
   forecast: [],
   schedule: [],
+  demand: [], 
 
   // Время
   currentDateIndex: 0,
@@ -17,7 +18,7 @@ export const useSimulationStore = create((set, get) => ({
   // Экшены
   setForecast: (forecast) => set({ forecast }),
   setSchedule: (schedule) => set({ schedule }),
-
+  setDemand: (demand) => set({ demand }),
   setHour: (hour) => set({ currentHour: Math.min(23, Math.max(7, hour)) }),
 
   nextHour: () => {
