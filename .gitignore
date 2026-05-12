@@ -1,6 +1,15 @@
-node_modules/ 
-.idea/ 
-dist/ 
-build/ 
-*.log 
-.env 
+# Игнорируем из main
+node_modules/
+.idea/
+dist/
+build/
+*.log
+.env
+
+# Игнорируем из ml_model
+catboost_info/
+*.pyc
+__pycache__/
+data/*.tmp
+.DS_Store
+.vscode/
