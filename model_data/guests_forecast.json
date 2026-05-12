@@ -1,0 +1,599 @@
+{
+  "forecast": [
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 7,
+      "guests_count": 51
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 8,
+      "guests_count": 80
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 9,
+      "guests_count": 88
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 10,
+      "guests_count": 76
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 11,
+      "guests_count": 95
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 12,
+      "guests_count": 162
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 13,
+      "guests_count": 174
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 14,
+      "guests_count": 152
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 15,
+      "guests_count": 135
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 16,
+      "guests_count": 129
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 17,
+      "guests_count": 124
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 18,
+      "guests_count": 124
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 19,
+      "guests_count": 119
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 20,
+      "guests_count": 103
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 21,
+      "guests_count": 85
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 22,
+      "guests_count": 67
+    },
+    {
+      "sale_date": "2026-04-27",
+      "sale_hour": 23,
+      "guests_count": 44
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 7,
+      "guests_count": 53
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 8,
+      "guests_count": 85
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 9,
+      "guests_count": 90
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 10,
+      "guests_count": 78
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 11,
+      "guests_count": 100
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 12,
+      "guests_count": 173
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 13,
+      "guests_count": 186
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 14,
+      "guests_count": 160
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 15,
+      "guests_count": 145
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 16,
+      "guests_count": 137
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 17,
+      "guests_count": 132
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 18,
+      "guests_count": 139
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 19,
+      "guests_count": 136
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 20,
+      "guests_count": 114
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 21,
+      "guests_count": 93
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 22,
+      "guests_count": 76
+    },
+    {
+      "sale_date": "2026-04-28",
+      "sale_hour": 23,
+      "guests_count": 52
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 7,
+      "guests_count": 56
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 8,
+      "guests_count": 88
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 9,
+      "guests_count": 92
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 10,
+      "guests_count": 84
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 11,
+      "guests_count": 105
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 12,
+      "guests_count": 175
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 13,
+      "guests_count": 192
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 14,
+      "guests_count": 156
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 15,
+      "guests_count": 144
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 16,
+      "guests_count": 138
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 17,
+      "guests_count": 135
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 18,
+      "guests_count": 143
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 19,
+      "guests_count": 140
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 20,
+      "guests_count": 115
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 21,
+      "guests_count": 93
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 22,
+      "guests_count": 76
+    },
+    {
+      "sale_date": "2026-04-29",
+      "sale_hour": 23,
+      "guests_count": 55
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 7,
+      "guests_count": 57
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 8,
+      "guests_count": 87
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 9,
+      "guests_count": 89
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 10,
+      "guests_count": 80
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 11,
+      "guests_count": 100
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 12,
+      "guests_count": 176
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 13,
+      "guests_count": 189
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 14,
+      "guests_count": 163
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 15,
+      "guests_count": 149
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 16,
+      "guests_count": 141
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 17,
+      "guests_count": 140
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 18,
+      "guests_count": 146
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 19,
+      "guests_count": 141
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 20,
+      "guests_count": 116
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 21,
+      "guests_count": 100
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 22,
+      "guests_count": 82
+    },
+    {
+      "sale_date": "2026-04-30",
+      "sale_hour": 23,
+      "guests_count": 60
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 7,
+      "guests_count": 38
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 8,
+      "guests_count": 58
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 9,
+      "guests_count": 64
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 10,
+      "guests_count": 68
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 11,
+      "guests_count": 81
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 12,
+      "guests_count": 128
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 13,
+      "guests_count": 159
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 14,
+      "guests_count": 154
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 15,
+      "guests_count": 145
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 16,
+      "guests_count": 137
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 17,
+      "guests_count": 130
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 18,
+      "guests_count": 136
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 19,
+      "guests_count": 130
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 20,
+      "guests_count": 111
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 21,
+      "guests_count": 97
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 22,
+      "guests_count": 83
+    },
+    {
+      "sale_date": "2026-05-01",
+      "sale_hour": 23,
+      "guests_count": 64
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 7,
+      "guests_count": 34
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 8,
+      "guests_count": 46
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 9,
+      "guests_count": 61
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 10,
+      "guests_count": 66
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 11,
+      "guests_count": 81
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 12,
+      "guests_count": 107
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 13,
+      "guests_count": 124
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 14,
+      "guests_count": 127
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 15,
+      "guests_count": 126
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 16,
+      "guests_count": 123
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 17,
+      "guests_count": 123
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 18,
+      "guests_count": 117
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 19,
+      "guests_count": 108
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 20,
+      "guests_count": 97
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 21,
+      "guests_count": 86
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 22,
+      "guests_count": 80
+    },
+    {
+      "sale_date": "2026-05-02",
+      "sale_hour": 23,
+      "guests_count": 57
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 7,
+      "guests_count": 29
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 8,
+      "guests_count": 33
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 9,
+      "guests_count": 36
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 10,
+      "guests_count": 41
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 11,
+      "guests_count": 55
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 12,
+      "guests_count": 80
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 13,
+      "guests_count": 101
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 14,
+      "guests_count": 111
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 15,
+      "guests_count": 114
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 16,
+      "guests_count": 113
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 17,
+      "guests_count": 116
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 18,
+      "guests_count": 114
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 19,
+      "guests_count": 105
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 20,
+      "guests_count": 92
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 21,
+      "guests_count": 79
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 22,
+      "guests_count": 66
+    },
+    {
+      "sale_date": "2026-05-03",
+      "sale_hour": 23,
+      "guests_count": 43
+    }
+  ]
+}
